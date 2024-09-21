@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="./assets/img/MELogo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" name="description"
+        content="María Eugenia Máspoli, diseñadora digital y desarrolladora web con conocimientos en frontend y backend." />
+    <meta name="google-site-verification" content="32xLOpNe12qgXkPQcUR3EnITdPHQn9LXrP4MXI6So7Q" />
+    <script src="./js/bootstrap.bundle.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/styles.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <title>María Eugenia Máspoli</title>
+</head>
+
+<body>
+    <h1 class="counter">0</h1>
+    <div class="overlay"></div>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-4 position-fixed">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">María Eugenia</a>
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="bi bi-three-dots-vertical text-secondary"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#stack">Stack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects" data-section="navbar" data-value="projects">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" data-section="navbar" data-value="contact">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="languageButton">
+                                <i class="bi bi-globe2"></i> ES  
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="horizontalScroller hero d-flex align-items-center vh-100">
+        <h1 class="visually-hidden">María Eugenia Máspoli - Diseñadora y Desarrolladora Web</h1>
+        <div class="row">
+
+            <span class="first-name" style="position: relative; z-index: 2">María</span>
+            <span class="second-name" style="position: relative; z-index: 2">Eugenia</span>
+        </div>
+        <img class="myself" src="assets/img/myself.webp" alt="María Eugenia Máspoli, Diseñadora y Desarrolladora Web">
+        <!-- <div class="scroll-indicator">
+            <div class="mouse-scroll"></div>
+            <div class="arrow-scroll">
+                    <div class="arrow"></div>
+                    <div class="arrow"></div>
+                    <div class="arrow"></div>
+                </div>
+        </div> -->
+    </main>
+
+    <div class="container scrollx">
+        <section class="about">
+            <div class="row">
+                <h2 class="col-12 mb-0 p-0">Web & Apps</h2>
+                <h4 class="col-12 mb-4 mb-lg-7 p-0" data-section="about" data-value="title">Diseñadora y Desarrolladora</h4>
+            </div>
+            <div class="row align-items-end">
+
+                <div class="col-12 col-lg-6 p-0">
+                    <p class="col-12 mb-4" data-section="about" data-value="about">
+                        Hola! Soy María Eugenia Máspoli, diseñadora digital <span>Frontend</span> con conocimiento en
+                        Backend y React Native.
+                    </p>
+                    <!-- <p class="col-12 mb-4">
+                        Me considero sencilla y dedicada, me gusta aprender cosas nuevas y quería transmitir todo esto de una forma <span>inmersiva e interactiva</span> que los haga sentir parte de mi experiencia en este recorrido en la carrera.
+                    </p> -->
+                    <p class="col-12 col-lg-11 mb-4" data-section="about" data-value="about2">
+                        Comprometida a entregar trabajos de calidad y a seguir ampliando mis habilidades de manera
+                        constante.
+                    </p>
+                    <!-- <p class="col-12 col-lg-11">
+                        Veo al diseño como una herramienta para experimentar, comunicar y conectarnos.
+                    </p> -->
+                    <!-- <p class="col-12 col-lg-11">
+                        Bienvenidos a mi recorrido personal y profesional donde mostraré <span>mi crecimiento</span> en
+                        conjunto con los trabajos realizados en la carrera. -->
+                    <!-- <p class="col-12 col-lg-11 mb-4">
+                            Me identifico por ser dedicada por aprender cosas nuevas y crecer constantemente.
+                        </p> -->
+                    <!-- </p> -->   
+                </div>
+                <div class="btn-cv col-12 col-lg-6 mt-5 mt-lg-0">
+                    <div class="btn button-link">
+                        <a id="download-link" href="#" download="cv_MariaEMaspoli_es.pdf" data-section="about" data-value="download">
+                            <i class="bi bi-download me-4"></i> Descargar mi CV
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Stack -->
+        <section id="stack" class="stack mb-5 mb-lg-10">
+            <h4 class="mb-5 mb-lg-8" data-section="stack" data-value="title">Mis herramientas</h4>
+            <div id="stackScroller" class="row flex-nowrap mb-4 mb-lg-5 stackScroller">
+
+            </div>
+            <p class="mb-1" data-section="stack" data-value="text1">Entusiasmada por mis herramientas actuales!</p>
+            <p data-section="stack" data-value="text2">Siempre abierta a aprender más tecnologías para mejorar mis proyectos. <span>Sigamos creciendo juntos! </span></p>
+
+        </section>
+
+        <!-- <section class="mb-0 mb-lg-4">
+            <h3>Proyectos Destacados</h3>
+        </section> -->
+
+        <div id="projects" class="title-container">
+            <section class="pb-4 pb-pd-5 pt-5 pt-pd-6 title bg-background">
+                <div class="container ps-0 pe-0">
+                    <h3 data-section="projects" data-value="title">Proyectos Destacados</h3>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- SHIO -->
+    <section class="project-cover shio">
+        <div class="shioBg" style="min-width: 100px;">
+            <img src="assets/img/shioBg.svg" alt="sal shio de mostaza">
+        </div>
+        <div>
+            <h1 class="first" style="position: relative; z-index: 2;">Shio</h1>
+            <h1 class="second" style="position: relative; z-index: 2;">Gourmet</h1>
+        </div>
+    </section>
+
+    <!-- project -->
+    <section class="project shio">
+        <div class="container container-shio">
+
+            <div class="row row-shio justify-content-between">
+
+                <div class="col-12 mobile project-img">
+                    <div>
+                        <img loading="lazy" src="assets/img/projects/shio/shio1.webp" alt="shio sal gourmet mostaza">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 mt-4 mb-6 my-lg-0">
+                    <div class="row tags">
+                        <p data-section="projects" data-value="shio-tag">UX/UI Diseño</p>
+                        <p>Front-end</p>
+                    </div>
+                    <h6 class="subtitle" data-section="projects" data-value="shio-type">2022 - proyecto académico</h6>
+                    <h4>Shio Sales Gourmet</h4>
+                    <div>
+                        <p class="mb-4" data-section="projects" data-value="shio-description1">El proyecto consistió en crear una <strong>plataforma web</strong> para mostrar
+                            la línea de
+                            sales gourmet de SHIO,
+                            fomentando el conocimiento de la marca y la participación de la comunidad.</p>
+                        <p class="mb-4" data-section="projects" data-value="shio-description2">El sitio muestra elegantemente los productos de SHIO, invitando a los
+                            usuarios a explorar y
+                            descubrir inspiración culinaria.
+                        </p>
+                        <p data-section="projects" data-value="shio-description3">Además, los usuarios pueden compartir sus propias recetas utilizando las sales de SHIO, cultivando así una comunidad en línea vibrante. A su vez, un <strong>mapa interactivo</strong> ayuda a los usuarios a localizar fácilmente los puntos de venta.
+                        </p>
+                    </div>
+                    <div class="technologies">
+                        <h5>Html</h5>
+                        <h5>/</h5>
+                        <h5>Bootstrap</h5>
+                        <h5>/</h5>
+                        <h5>Sass</h5>
+                        <h5>/</h5>
+                        <h5>Javascript</h5>
+                        <h5>/</h5>
+                        <h5>AdobeXd</h5>
+                    </div>
+                    <div class="mt-8">
+                        <div class="btn btn-project">
+                            <a href="https://shiosalesgourmet.netlify.app" data-section="projects" data-value="shio-button">Ver proyecto<i
+                                    class="bi bi-arrow-up-right ms-4"></i></a>
+                        </div>
+                        <div class="btn btn-project">
+                            <a href="https://github.com/mariaeugeniamaspolii/Shio-Gourmet_web.git" aria-label="ver en github"><i class="bi bi-github" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 image-column desktop">
+                    <div class="images">
+                        <img src="assets/img/projects/shio/shio1.webp" alt="shio sal gourmet mostaza">
+                        <img src="assets/img/projects/shio/shio2.webp" alt="inicio shio sales gourmet">
+                        <img src="assets/img/projects/shio/shio3.webp" alt="catalogo shio sales gourmet">
+                        <img src="assets/img/projects/shio/shio4.webp" alt="recetas shio sales gourmet">
+                        <img src="assets/img/projects/shio/shio5.webp" alt="mapa y contacto shio sales gourmet">
+                    </div>
+                </div>
+
+                <div class="col-12 mobile project-images">
+                    <div class="images-gap">
+                        <img loading="lazy" src="assets/img/projects/shio/shio2.webp" alt="inicio shio sales gourmet">
+                        <img loading="lazy" src="assets/img/projects/shio/shio3.webp" alt="catalogo shio sales gourmet">
+                        <img loading="lazy" src="assets/img/projects/shio/shio4.webp" alt="recetas shio sales gourmet">
+                        <img loading="lazy" src="assets/img/projects/shio/shio5.webp"
+                            alt="mapa y contacto shio sales gourmet">
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- TAURUS -->
+    <div class="projects">
+        <section class="project-cover taurus row">
+            <div class="col-12 taurusBg" style="width: 100%; text-align: center;">
+                <svg class="arcadeImg" width="100%" height="864" viewBox="0 0 444 864"
+                    style="display: inline-block; margin: 0 auto;">
+                    <!-- <g transform="translate(50%, 0)"> -->
+                    <path
+                        d="M443.293 125.567L384.267 2.10406C383.83 1.18929 382.777 0.746528 381.817 1.0737L340.836 15.0444C340.035 15.3175 339.493 16.0655 339.482 16.9119L338.007 132.474C338.002 132.819 338.087 133.159 338.253 133.461L388.635 225.335C388.87 225.764 388.94 226.263 388.832 226.739L350 398C340.686 425.942 294.365 434.66 293.968 439.702C293.953 439.901 293.999 440.101 293.998 440.3L293.522 511.277C293.512 512.761 295.081 513.732 296.427 513.107C332.895 496.17 340.325 508.905 340 518L330.114 854.635C330.066 856.257 331.869 857.258 333.22 856.359L426.134 794.576C426.677 794.215 427.01 793.612 427.026 792.96L443.488 126.479C443.496 126.164 443.429 125.852 443.293 125.567Z"
+                        fill="#D9D9D9" />
+                    <path
+                        d="M305.382 378.426L337.886 244.53C338.196 243.253 337.211 242.029 335.897 242.059L162.557 245.965C161.642 245.986 160.857 246.626 160.653 247.519L132.043 372.625C131.762 373.854 132.675 375.034 133.935 375.07L303.381 379.953C304.325 379.981 305.159 379.344 305.382 378.426Z"
+                        fill="#D9D9D9" />
+                    <path
+                        d="M248.358 435.915L275.525 417.392C277.115 416.308 276.407 413.824 274.485 413.741L83.7117 405.531C83.2514 405.511 82.7984 405.651 82.4292 405.926L46.3034 432.9C45.7978 433.278 45.5 433.872 45.5 434.503V487.148C45.5 488.193 46.3044 489.062 47.3462 489.142L244.378 504.336C245.528 504.425 246.514 503.525 246.531 502.372L247.485 437.538C247.494 436.887 247.82 436.282 248.358 435.915Z"
+                        fill="#D9D9D9" />
+                    <path
+                        d="M290.698 26.2763L69.7529 52.7896C68.7515 52.9098 67.9962 53.7569 67.9912 54.7655L67.511 151.296C67.5051 152.477 68.5184 153.406 69.6944 153.298L288.234 133.163C289.242 133.07 290.021 132.239 290.05 131.227L292.935 28.3181C292.969 27.097 291.91 26.1308 290.698 26.2763Z"
+                        fill="#D9D9D9" />
+                    <path
+                        d="M72.1511 829.29L264.537 863.068C265.8 863.289 266.942 862.283 266.881 861.003L266.576 854.593C266.531 853.661 265.848 852.884 264.93 852.719L80.633 819.792C79.686 819.623 78.9936 818.803 78.9848 817.841L76.5094 547.026C76.5035 546.382 76.1878 545.78 75.6614 545.409L11.3417 500.093C10.8135 499.721 10.4976 499.117 10.4936 498.47L10.0063 420.018C10.0023 419.378 10.3043 418.775 10.8188 418.396L81.9269 365.923C82.2976 365.649 82.5624 365.256 82.6768 364.81L113.206 245.647C113.387 244.94 113.169 244.19 112.636 243.691L35.6272 171.587C35.2268 171.212 34.9979 170.689 34.9942 170.141L34.0114 23.7018C34.0048 22.7208 34.7108 21.8799 35.6781 21.7164L103.111 10.3192C104.167 10.1407 104.895 9.16194 104.762 8.09914L104.254 4.03065C104.115 2.91677 103.086 2.13561 101.976 2.30038L28.2118 13.246C27.229 13.3918 26.5023 14.237 26.5054 15.2305L26.9973 173.148C26.999 173.692 27.2225 174.212 27.6162 174.588L103.652 247.19C104.176 247.69 104.388 248.434 104.207 249.136L75.6803 359.8C75.5638 360.253 75.2928 360.65 74.9142 360.923L0.847125 414.388C0.3164 414.772 0.00672698 415.39 0.0180107 416.045L1.48244 500.981C1.49347 501.621 1.81019 502.217 2.33441 502.585L69.1496 549.404C69.6827 549.778 70.0007 550.387 70.0019 551.038L70.497 827.324C70.4987 828.293 71.196 829.122 72.1511 829.29Z"
+                        fill="#D9D9D9" />
+                    <!-- </g> -->
+                </svg>
+
+            </div>
+            <div class="col-12">
+                <h1 class="first" style="position: relative; z-index: 2;">Taurus</h1>
+                <h1 class="second" style="position: relative; z-index: 2;">Arcade</h1>
+            </div>
+        </section>
+
+        <!-- project -->
+        <section class="project taurus">
+            <div class="container">
+
+                <div class="row justify-content-between mb-lg-13">
+                    <div class="col-12 col-lg-6 image-column">
+                        <div>
+                            <img src="assets/img/projects/taurus/taurus1.webp" alt="inicio taurus arcade">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-5 mt-4 mb-6 my-lg-0">
+                        <div class="row tags">
+                            <p data-section="projects" data-value="taurus-tag">UX/UI Diseño</p>
+                            <p>Front-end</p>
+                        </div>
+                        <h6 class="subtitle" data-section="projects" data-value="taurus-type">2022 - proyecto freelance</h6>
+                        <h4>Taurus Arcade</h4>
+                        <div>
+                            <p data-section="projects" data-value="taurus-description1">El proyecto consistió en crear una <strong>plataforma web dinámica</strong> para Taurus
+                                Arcade, mostrando su línea de productos y permitiendo a los visitantes explorar varios
+                                artículos.</p>
+                        </div>
+                        <div class="technologies">
+                            <h5>Html</h5>
+                            <h5>/</h5>
+                            <h5>Bootstrap</h5>
+                            <h5>/</h5>
+                            <h5>Sass</h5>
+                            <h5>/</h5>
+                            <h5>Javascript</h5>
+                            <h5>/</h5>
+                            <h5>AdobeXd</h5>
+                        </div>
+                        <div class="mt-8">
+                            <div class="btn btn-project">
+                                <a href="https://taurusarcade.com/" data-section="projects" data-value="taurus-button">Ver proyecto<i
+                                        class="bi bi-arrow-up-right ms-4"></i></a>
+                            </div>
+                            <div class="btn btn-project">
+                                <a href="https://github.com/mariaeugeniamaspolii/Taurus-arcade_web.git" aria-label="ver en github"><i class="bi bi-github"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row content-taurus justify-content-between mb-7 mb-lg-0">
+                    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                        <div>
+                            <img src="assets/img/projects/taurus/taurus2.webp" alt="menu taurus arcade">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <p data-section="projects" data-value="taurus-description2">
+                            Para su <strong>diseño</strong> me inspiré en el mundo vibrante y dinámico de los
+                            videojuegos, manteniendo al mismo tiempo la estética de las salas de arcade originales,
+                            oscuras y con luces
+                            coloridas.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="row second-row content-taurus justify-content-between align-items-end  flex-row-reverse flex-lg-row">
+                    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                        <p data-section="projects" data-value="taurus-description3">
+                            Además, la plataforma sirve como una herramienta vital para la <strong>promoción de la
+                                marca</strong> en las redes sociales, comunicando eficazmente el perfil y la estética
+                            única de Taurus Arcade.
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div>
+                            <img src="assets/img/projects/taurus/taurus3.webp" alt="sobre nosotros taurus arcade">
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <!-- QUEST -->
+    <section class="project-cover quest">
+        <div class="col-12 questBg" style="width: 100%; text-align: center;">
+            <h1 class="first">[Quest]</h1>
+        </div>
+    </section>
+
+    <!-- project -->
+    <section class="project quest">
+        <div class="container container-quest">
+
+            <div class="row row-quest justify-content-between">
+                <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+                    <div class="row tags">
+                        <p data-section="projects" data-value="quest-tag1">UX/UI Diseño</p>
+                        <p data-section="projects" data-value="quest-tag2">Desarrollo Móvil FullStack</p>
+                    </div>
+                    <h6 class="subtitle" data-section="projects" data-value="quest-type">2023 - proyecto académico</h6>
+                    <h4>Quest App</h4>
+                    <div>
+                        <p class="mb-4" data-section="projects" data-value="quest-description1">
+                            Este proyecto consiste en la materialización de una aplicación móvil partiendo desde una
+                            extensa investigación de <strong>experiencia de
+                                usuario.</strong>
+                        </p>
+
+                        <p class="mb-4" data-section="projects" data-value="quest-description2">
+                            Desde la conceptualización hasta el producto final, lo he elaborado
+                            meticulosamente para garantizar una experiencia intuitiva y amigable para el usuario.
+                        </p>
+                        <p class="mb-4" data-section="projects" data-value="quest-description3">
+                            El <strong>backend</strong> fue desarrollado asegurando una funcionalidad robusta y una
+                            gestión eficiente de
+                            datos.
+                        </p>
+                        <p data-section="projects" data-value="quest-description4">
+                            Además, el <strong>frontend</strong> fue construido con <strong>React Native</strong>,
+                            ofreciendo una interfaz de usuario
+                            fluida y receptiva en varios dispositivos.
+                        </p>
+                    </div>
+                    <div class="technologies">
+                        <h5>ReactNative</h5>
+                        <h5>/</h5>
+                        <h5>NodeJs</h5>
+                        <h5>/</h5>
+                        <h5>Express</h5>
+                        <h5>/</h5>
+                        <h5>Javascript</h5>
+                        <h5>/</h5>
+                        <h5>Figma</h5>
+                    </div>
+                    <div class="mt-8">
+                        <div class="btn btn-project btn-github">
+                            <a href="https://github.com/mariaeugeniamaspolii/Quest-parking_app.git" aria-label="ver en github"><i class="bi bi-github" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 quest-images desktop">
+                    <img src="assets/img/projects/quest/quest1.webp" alt="splash screen quest app">
+                    <img src="assets/img/projects/quest/quest2.webp" alt="onboarding quest app">
+                    <img src="assets/img/projects/quest/quest5.webp" alt="parkings quest app">
+                    <img src="assets/img/projects/quest/quest6.webp" alt="mapa quest app">
+                    <img src="assets/img/projects/quest/quest7.webp" alt="tarifado quest app">
+                    <img src="assets/img/projects/quest/quest8.webp" alt="estado del tarifado quest app">
+                    <img src="assets/img/projects/quest/quest12.webp" alt="estado del tarifado quest app">
+                    <img src="assets/img/projects/quest/quest13.webp" alt="estado del tarifado quest app">
+                    <img src="assets/img/projects/quest/quest14.webp" alt="estado del tarifado quest app">
+                </div>
+
+                <!-- Swiper -->
+                <div class="col-12 swiper mobileSwiper mobile">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img loading="lazy" src="assets/img/projects/quest/quest1.webp"
+                                alt="splash screen quest app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="assets/img/projects/quest/quest5.webp" alt="parkings quest app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="assets/img/projects/quest/quest6.webp" alt="mapa quest app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="assets/img/projects/quest/quest7.webp" alt="tarifado quest app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="assets/img/projects/quest/quest8.webp"
+                                alt="estado del tarifado quest app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="assets/img/projects/quest/quest12.webp"
+                                alt="estado del tarifado quest app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="assets/img/projects/quest/quest13.webp"
+                                alt="estado del tarifado quest app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="assets/img/projects/quest/quest14.webp"
+                                alt="estado del tarifado quest app">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EVENTY -->
+    <section class="project-cover eventy">
+        <div class="col-12 eventyBg" style="width: 100%; text-align: center;">
+
+            <svg width="1147" height="1147" viewBox="0 0 1147 1147" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M310 62H341H372V93V124H341V93H310V62ZM434 62H403V93V124H434V93H465V124H496V155H527H558V186V217H527H496V186H465V217H434V186V155H403V186H372V217H403V248H372V279H341V248V217V186V155H310V186V217V248V279V310H341H372H403V279V248H434V279H465V248H496V279V310H527V279V248H558V279H589V248H620V279H651V248H682V279H713V248H682V217H651V186H682V155H713H744V186H713V217H744H775V186V155H806H837V124V93H806V62H775V93H806V124H775V155H744V124V93H713H682H651V62H620H589H558H527H496H465H434ZM620 155H651V124V93H620H589V124H558V93H527V124H558V155H589V186V217H558V248H589V217H620V186V155ZM620 155H589V124H620V155ZM775 248H744V279H775V248ZM806 248H837V279H806V248Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M651 279H682H713H744V310H775V341H744H713V372H682V341V310H651V279ZM806 341H775V372H744V403H713H682H651V434H682V465H713V496H744V465V434V403H775H806V434H775V465V496V527H744H713V558H682H651V589H682H713H744H775H806H837V558H868V589H899V558V527V496H930V527V558V589H961V558V527V496H992V465V434H961H930V465H899V434V403V372H868V341H899H930H961V372V403H992V372H1023H1054V341H1085V310H1054V341H1023H992V310H961H930H899H868H837V279H806H775V310H806V341ZM837 403V372V341H806V372V403H837ZM868 465H837V434V403H868V434V465ZM868 465H899V496H868V465ZM930 465H961V496H930V465ZM1023 403H1054V434H1085V465H1054H1023V434V403ZM1054 496H1023V527H1054V496Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M620 279H589V310V341H558V310H527V341V372H496H465V403V434V465V496H496H527V527H496V558H465V589V620H496H527V651H558H589V620H620V651H651V620V589H620V558H651V527V496V465V434V403H620V372H651V341H620V310H651V279H620ZM589 620H558V589H527H496V558H527H558H589V589V620ZM527 465H558H589V496H620V527H589H558V496H527V465ZM527 465H496V434V403H527H558V372H589V403V434H558H527V465Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M93 310H62V341H93V372H62V403H93V434H62V465V496V527V558V589H93V558H124V589V620H93V651V682H124V651V620H155V651V682V713H186V744H155H124V713H93H62V744H93H124V775H155H186H217V806H248V837H279H310V806H279H248V775H279H310V744V713V682H279H248V651H279H310H341V682H372V651V620H403H434V589V558H465V527H434V496H465V465H434V496H403H372V465H341V434H372V403H341V434H310H279H248H217V403H186H155H124H93V372H124H155V341H124H93V310ZM372 496V527H341V496H372ZM341 589V620H372V589H341ZM310 589H341V558H310V589ZM248 620H279H310V589H279H248V558H279V527H310V496V465H279H248H217H186V434H155V465H124V434H93V465V496V527H124H155V496V465H186V496V527H217V558V589H186H155V620H186V651H217H248V620ZM248 620H217V589H248V620ZM217 527V496H248H279V527H248H217ZM248 682H217V713V744V775H248V744H279V713H248V682ZM217 310H186V341H217V310ZM248 310H279H310H341H372V341V372H341V341H310V372H279V341H248V310ZM279 372V403H248V372H279ZM403 310H434V341H465V372V403V434H434H403V403H434V372H403V341V310ZM62 806H93H124H155V837H124H93H62V806Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M434 651H465V682H434V651ZM496 651H527V682H558V713H527V744V775H496H465V806V837V868V899H434V930H403H372H341V899H310V868V837H341V806H310V775H341H372V806H403H434V775H403V744H372V713V682H403V713H434V744H465H496V713V682V651ZM341 930V961H310V930H341ZM496 899V930H465V899H496ZM589 961H558H527V930V899H496V868V837V806H527H558V837H589V806V775H558V744V713H589H620V682H589V651H620H651V682V713V744V775H682V806H713V837H682H651V868V899H620V868H589H558V899H589V930V961ZM651 961H620H589V992H620V1023H589H558V992H527V1023H496V992H465H434V961H403H372V992H403H434V1023H465H496V1054H465V1085H496V1054H527H558H589V1085H620V1054H651V1085H682H713H744H775V1054H744V1023V992H775H806V961H775H744V930V899H775V868H744H713V899H682V930H651V961ZM651 961H682V930H713V961H744V992H713H682V1023H713V1054H682H651V1023V992V961ZM372 1023H341V1054H310V1085H341V1054H372V1085H403H434V1054H403H372V1023Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M1054 558H1023V589H992H961V620V651H992V620H1023V651V682V713H992V682H961H930V651V620H899H868V651H837V620V589H806H775V620V651H806V682V713H775V682H744V651V620H713H682V651H713V682H744V713H713V744H682V775H713V806V837H744H775V868H806V899V930V961H837H868V992H837V1023H806H775V1054H806V1085H837V1054V1023H868H899H930H961V992H992H1023V961H1054H1085V930V899H1054V868V837H1085V806V775H1054V744V713V682V651V620V589V558ZM992 837H1023H1054V806H1023V775V744H992H961V713H930V682H899V651H868V682H837V713H806V744H837V713H868V744V775H899V806H930V775H961V806H992V837ZM992 868H1023V899H1054V930H1023V961H992V930H961V899H992V868ZM992 868V837H961V868H992ZM899 713V744H930V713H899ZM899 713H868V682H899V713ZM744 775H713V744H744V775ZM744 775H775V806H744V775ZM744 744V713H775V744H744ZM899 930H930V899V868V837H899H868H837V868V899V930H868H899ZM868 868H899V899H868V868ZM899 1054H868V1085H899V1054ZM1054 1054H1085V1085H1054V1054Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M94.55 62H246.45H279V94.55V246.45V279H246.45H94.55H62V246.45V94.55V62H94.55ZM94.55 246.45H246.45V94.55H94.55V246.45ZM124 124H217V217H124V124Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M900.55 62H1052.45H1085V94.55V246.45V279H1052.45H900.55H868V246.45V94.55V62H900.55ZM900.55 246.45H1052.45V94.55H900.55V246.45ZM930 124H1023V217H930V124Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M94.55 868H246.45H279V900.55V1052.45V1085H246.45H94.55H62V1052.45V900.55V868H94.55ZM94.55 1052.45H246.45V900.55H94.55V1052.45ZM124 930H217V1023H124V930Z"
+                    fill="white" />
+            </svg>
+
+
+            <div class="timeline-eventy"></div>
+            <h1 class="first">Eventy</h1>
+        </div>
+    </section>
+
+    <!-- project -->
+    <section class="project eventy">
+        <div class="container container-eventy">
+
+            <div class="row row-eventy justify-content-between">
+
+                <div class="col-12 col-lg-6 desktop" data-masonry='{"percentPosition": true }'>
+                    <div class="row eventy-images" style="grid-gap: 1.5em;">
+                        <img class="p-0 m-0" src="assets/img/projects/eventy/eventy1.webp" alt="inicio eventy app"
+                            style="width: 48%;">
+                        <img class="p-0 m-0" src="assets/img/projects/eventy/eventy2.webp"
+                            alt="detalle evento eventy app" style="width: 48%;">
+                        <img class="p-0 m-0" src="assets/img/projects/eventy/eventy3.webp"
+                            alt="selección entradas eventy app" style="width: 48%;">
+                        <img class="p-0 m-0" src="assets/img/projects/eventy/eventy4.webp" alt="qr entrada eventy app"
+                            style="width: 48%;">
+                        <img class="p-0 m-0" src="assets/img/projects/eventy/eventy5.webp" alt="calendario eventy app"
+                            style="width: 48%;">
+                        <img class="p-0 m-0" src="assets/img/projects/eventy/eventy6.webp"
+                            alt="listado guardados eventy app" style="width: 48%;">
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class="row tags">
+                        <p data-section="projects" data-value="eventy-tag">UX/UI Diseño</p>
+                    </div>
+                    <h6 class="subtitle" data-section="projects" data-value="eventy-type">2020 - proyecto académico</h6>
+                    <h4>Eventy App</h4>
+                    <div>
+                        <p class="mb-4" data-section="projects" data-value="eventy-description1">
+                            La aplicación representa una solución integral, para la participación en eventos.
+                        </p>
+                        <p class="mb-4" data-section="projects" data-value="eventy-description2">
+                            Sus <strong>funcionalidades</strong> principales son el inicio personalizado para el
+                            usuario, un calendario, eventos guardados, compra de entradas y listado de amigos
+                            asistentes, a través de la fusión de un diseño centrado en el <strong>usuario y
+                                funcionalidad.</strong>
+                        </p>
+                        <p data-section="projects" data-value="eventy-description3">
+                            Para el <strong>diseño</strong> de la aplicación Eventy implicó llevar a cabo una
+                            <strong>investigación exhaustiva de UX</strong> para garantizar una <strong>experiencia de
+                                usuario</strong> fluida.
+                            Me centré en diseñar una plataforma intuitiva para la <strong>búsqueda de eventos</strong> y
+                            la compra de
+                            entradas, priorizando la accesibilidad y personalización.
+                        </p>
+                    </div>
+                    <div class="technologies">
+                        <h5>AdobeXd</h5>
+                        <h5>/</h5>
+                        <h5>Photoshop</h5>
+                    </div>
+                </div>
+
+                <!-- Swiper -->
+                <div class="col-12 swiper mobileSwiper mobile">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/img/projects/eventy/eventy1.webp"
+                                alt="inicio eventy app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/projects/eventy/eventy2.webp" alt="detalle evento eventy app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/projects/eventy/eventy3.webp" alt="selección entradas eventy app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/projects/eventy/eventy4.webp" alt="calendario eventy app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/projects/eventy/eventy5.webp" alt="qr entrada eventy app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/projects/eventy/eventy6.webp" alt="listado guardados eventy app">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FIAT -->
+    <section class="project-cover fiat comparisonSection">
+        <div class="col-12 fiatBg comparisonImage beforeImage" style="width: 100%; text-align: center;">
+            <h1 class="first">Fiat</h1>
+            <img src="assets/img/projects/fiat/fiatBgYmd.webp" alt="fondo fiat before">
+        </div>
+        <div class="col-12 fiatBg2 comparisonImage afterImage" style="width: 100%; text-align: center;">
+            <h1 class="first">Fiat</h1>
+            <img src="assets/img/projects/fiat/fiatBgRmd.webp" alt="fondo fiat after">
+        </div>
+        <!-- <div class="col-12 fiatBg3" style="width: 100%; text-align: center;">
+            <h1 class="first">Fiat</h1>
+        </div> -->
+    </section>
+
+    <!-- project -->
+    <section class="project fiat">
+        <div class="container container-fiat">
+
+            <div class="row row-fiat justify-content-between">
+                <div class="col-12 col-lg-4">
+                    <div class="row tags">
+                        <p data-section="projects" data-value="fiat-tag">UX/UI Diseño</p>
+                    </div>
+                    <h6 class="subtitle" data-section="projects" data-value="fiat-type">2022 - proyecto académico</h6>
+                    <h4>Fiat App</h4>
+                    <div>
+                        <p class="mb-4" data-section="projects" data-value="fiat-description1">
+                            El proyecto consistía en crear un <strong>prototipo digital interactivo móvil</strong> para
+                            su uso en la
+                            exposición retro sobre el automóvil Fiat 125, y otros vehículos populares en el Uruguay de
+                            los 60 a los 90.
+                        </p>
+
+                        <p class="mb-4" data-section="projects" data-value="fiat-description2">
+                            El prototipo destaca los tres modelos más emblemáticos de la marca, proporcionando detalles
+                            sobre sus especificaciones técnicas y su historia.
+                        </p>
+
+                        <p data-section="projects" data-value="fiat-description3">
+                            A su vez se muestra un recorrido interactivo a lo largo de una línea cronológica que ilustra
+                            la evolución de los modelos de automóviles Fiat a lo largo de los años. Cada punto en la
+                            línea cronológica representa un año específico, acompañado de una descripción del modelo
+                            correspondiente, lo que permitirá a los visitantes de la exposición tener una visión
+                            completa del avance de Fiat en el tiempo.
+                        </p>
+                    </div>
+                    <div class="technologies">
+                        <h5>AdobeXd</h5>
+                        <h5>/</h5>
+                        <h5>Photoshop</h5>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 fiat-images desktop">
+                    <div class="fiat-images-content">
+
+                        <div class="col-12 d-flex justify-content-center">
+                            <img src="assets/img/projects/fiat/fiat1.webp" alt="inicio rojo fiat app">
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <img src="assets/img/projects/fiat/fiat2.webp" alt="inicio azul fiat app">
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-center">
+                            <img src="assets/img/projects/fiat/fiat3.webp" alt="inicio amarillo fiat app">
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-center">
+                            <img src="assets/img/projects/fiat/fiat4.webp" alt="selección top 10 autos fiat app">
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-center">
+                            <img src="assets/img/projects/fiat/fiat5.webp"
+                                alt="selección top 10 autos sección 2 fiat app">
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-center">
+                            <img src="assets/img/projects/fiat/fiat6.webp" alt="cronología fiat app">
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Swiper -->
+                <div class="col-12 swiper mobileSwiper mobile">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img loading="lazy" src="assets/img/projects/fiat/fiat1.webp"
+                                alt="inicio rojo fiat app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="assets/img/projects/fiat/fiat2.webp" alt="inicio azul fiat app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="assets/img/projects/fiat/fiat3.webp" alt="inicio amarillo fiat app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="assets/img/projects/fiat/fiat4.webp"
+                                alt="selección top 10 autos fiat app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="assets/img/projects/fiat/fiat5.webp"
+                                alt="selección top 10 autos sección 2 fiat app">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="assets/img/projects/fiat/fiat6.webp" alt="cronología fiat app">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PALA -->
+    <section class="project-cover pala">
+        <div class="col-12 palaBg" style="width: 100%; text-align: center; overflow: hidden;">
+
+            <svg width="1715" height="820" viewBox="0 0 1715 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M154.746 110.282C156.336 77.3998 151.531 53.3758 142.354 36.2942C132.783 18.4799 118.558 8.40925 102.394 3.7477C70.338 -5.49708 30.8685 6.56302 4.49621 20.2258L3.31274 20.8389L3.16223 22.1633C-5.69898 100.142 8.57013 142.015 31.0261 162.272C52.7007 181.824 81.1758 180.529 101.431 173.291C124.935 229.343 165.794 251.068 207.434 255.172C249.411 259.31 292.057 245.555 318.528 231.629L322.675 229.447L314.008 224.758C301.3 207.098 293.23 188.331 286.225 170.675C285.272 168.275 284.338 165.89 283.413 163.528L283.412 163.525L283.393 163.478L283.392 163.474C277.509 148.458 271.994 134.38 264.548 123.187C255.803 110.042 244.272 100.666 226.261 97.945C209.098 95.3526 186.302 98.8452 154.746 110.282ZM7.98102 24.0573C-0.510989 100.685 13.8832 140.074 34.3752 158.559C54.9326 177.103 82.5114 175.369 101.91 167.773L104.212 166.872L105.139 169.164C127.73 225.021 167.424 246.205 207.924 250.197C246.5 253.999 285.919 242.19 311.986 229.349L310.626 228.613L310.292 228.152C297.005 209.824 288.669 190.393 281.577 172.519C280.6 170.056 279.648 167.628 278.712 165.239C272.803 150.168 267.509 136.665 260.385 125.956C252.251 113.729 241.854 105.357 225.514 102.889C208.969 100.39 186.064 103.901 152.915 116.284L149.306 117.632L149.545 113.787C151.674 79.476 146.882 55.2875 137.949 38.6605C129.059 22.1125 115.969 12.8664 101.009 8.55191C71.2713 -0.0241289 33.9427 10.8569 7.98102 24.0573Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M742.85 198.586C763.361 203.576 808.064 189.039 840.208 102.866C844.845 131.712 855.074 150.588 868.026 162.272C889.701 181.824 918.176 180.529 938.431 173.291C961.935 229.343 1002.79 251.068 1044.43 255.172C1086.41 259.31 1129.06 245.555 1155.53 231.629L1159.67 229.447L1151.01 224.758C1138.3 207.098 1130.23 188.331 1123.22 170.675C1122.27 168.275 1121.34 165.89 1120.41 163.528L1120.41 163.525L1120.39 163.478L1120.39 163.474C1114.51 148.458 1108.99 134.38 1101.55 123.187C1092.8 110.042 1081.27 100.666 1063.26 97.945C1046.1 95.3526 1023.3 98.8452 991.746 110.282C993.336 77.3998 988.531 53.3758 979.354 36.2942C969.783 18.4799 955.558 8.40925 939.394 3.7477C907.338 -5.49708 867.869 6.56302 841.496 20.2258L840.313 20.8389L840.162 22.1633C836.968 50.2702 836.779 73.6863 838.896 93.0901C838.845 93.1259 838.796 93.1638 838.748 93.2038C810.122 116.957 772.978 112.107 736.112 104.354C731.956 103.48 727.802 102.569 723.669 101.663C709.667 98.5928 695.911 95.5766 683.189 94.2383C666.754 92.5094 651.488 93.5017 639.126 101.127C616.659 111.588 606.923 123.468 602.35 137.186C600.099 143.942 599.137 151.031 598.407 158.342C598.219 160.218 598.047 162.105 597.874 164.008L597.871 164.034C597.363 169.612 596.842 175.332 595.884 181.34C593.338 197.309 587.732 215.049 571.131 235.013C554.475 255.043 526.661 277.418 479.499 302.413C478.301 303.049 477.828 304.523 478.432 305.737C479.037 306.951 480.5 307.461 481.728 306.887C510.017 293.668 532.569 301.913 554.369 309.883L554.378 309.887C557.725 311.11 561.055 312.328 564.385 313.46C576.771 317.67 589.256 320.68 602.255 317.526C615.305 314.358 628.389 305.108 642.338 285.899C652.261 272.234 655.723 259.594 657.351 248.449C657.936 244.448 658.288 240.593 658.616 237.015L658.618 236.99C658.741 235.653 658.859 234.355 658.985 233.103C659.458 228.416 660.035 224.318 661.226 220.689C662.401 217.11 664.167 214.013 667.025 211.334C669.81 208.723 673.75 206.399 679.467 204.474C685.834 254.019 679.128 345.633 611.957 420.317C610.227 422.24 608.534 424.241 606.879 426.314C592.748 410.365 575.668 395.473 555.241 382.039L555.22 382.025L555.198 382.012C530.474 366.468 494.53 337.54 467.189 301.394C439.821 265.211 421.371 222.208 430.742 178.311C440.323 133.432 448.183 105.686 454.092 89.2523C457.051 81.0231 459.489 75.7187 461.366 72.5421C462.31 70.9432 463.051 69.9891 463.569 69.4787C463.779 69.2722 463.906 69.1816 463.957 69.1503L463.967 69.1458L463.974 69.1418L463.98 69.1383C463.982 69.1374 463.983 69.1368 463.983 69.1366C463.983 69.1363 463.981 69.1369 463.977 69.1387C463.973 69.1408 463.966 69.1446 463.957 69.1503C463.889 69.1815 463.684 69.2522 463.358 69.216L463.91 64.2466C462.24 64.0611 460.899 65.0916 460.062 65.9154C459.104 66.858 458.108 68.2262 457.06 69.9992C454.953 73.5664 452.391 79.2048 449.387 87.5606C443.369 104.297 435.454 132.29 425.852 177.267C416.041 223.225 435.451 267.722 463.201 304.41C486.253 334.886 515.266 360.26 538.83 377.039C503.524 367.852 458.109 364.573 421.198 380.879C399.749 390.355 381.21 406.434 369.298 431.671C357.408 456.859 352.205 490.987 357.032 536.465C358.043 545.986 358.628 555.047 358.822 563.668C345.566 563.06 331.993 562.937 318.296 562.813C310.21 562.74 302.081 562.666 293.948 562.492C235.912 561.249 176.94 554.908 127.215 508.178C126.068 505.679 124.803 503.182 123.412 500.689C123.211 498.962 123.274 496.475 123.537 493.229C123.774 490.31 124.156 486.944 124.581 483.193L124.581 483.19L124.715 482.01C124.753 481.674 124.791 481.334 124.83 480.992C125.868 471.76 127.022 460.61 126.776 449.226C126.293 426.909 120.389 402.867 96.7697 390.676C94.8618 378.609 90.719 360.264 84.2005 342.731C77.4954 324.696 68.0775 306.958 55.5454 298.159C54.4659 297.401 52.9834 297.612 52.1583 298.641C32.4501 323.221 22.7396 385.744 82.2869 479.489C88.8437 489.812 85.4277 501.034 76.793 515.18C73.2802 520.935 69.0291 526.976 64.4695 533.456L64.4315 533.51C63.4481 534.908 62.4504 536.326 61.4428 537.765C55.7764 545.862 49.8435 554.586 44.5919 564.011C34.0789 582.879 26.2203 604.689 28.5802 630.293C30.9357 655.851 43.438 684.83 72.9149 718.16C77.2943 725.305 84.213 731.283 91.931 736.656C97.8253 740.759 104.354 744.619 110.755 748.402L110.76 748.406C112.808 749.616 114.842 750.819 116.838 752.019C125.163 757.025 132.86 762.01 138.659 767.548C144.437 773.067 148.123 778.939 148.799 785.698L148.887 786.582C148.875 787.905 148.842 789.175 148.789 790.387C148.783 790.52 148.788 790.652 148.803 790.784C149.425 796.178 150.196 802.627 150.44 803.902L150.45 803.952C150.454 803.974 150.459 803.999 150.465 804.027C150.468 804.042 150.471 804.056 150.475 804.072C150.486 804.123 150.5 804.18 150.516 804.239L150.526 804.275C150.531 804.292 150.537 804.309 150.542 804.327L150.553 804.361L150.564 804.394C150.574 804.426 150.588 804.463 150.603 804.504C150.613 804.528 150.623 804.553 150.634 804.579L150.635 804.583C150.664 804.651 150.78 804.927 151.019 805.214C151.139 805.359 151.424 805.672 151.902 805.892C152.472 806.154 153.223 806.231 153.956 805.908C154.578 805.633 154.911 805.189 155.05 804.974C155.08 804.928 155.107 804.883 155.131 804.839C155.175 804.762 155.21 804.689 155.239 804.624C155.247 804.606 155.254 804.589 155.261 804.573C155.267 804.558 155.273 804.544 155.278 804.53L155.284 804.513C155.299 804.476 155.31 804.444 155.319 804.417C155.437 804.071 155.451 803.76 155.452 803.731L155.452 803.729C155.458 803.634 155.459 803.549 155.459 803.492C155.458 803.42 155.457 803.345 155.454 803.268C155.452 803.218 155.45 803.167 155.447 803.117C155.422 802.615 155.352 801.705 155.232 800.336C155.003 797.714 154.578 793.263 153.889 786.349C154.096 756.027 144.011 699.45 126.535 644.607L126.527 644.582L126.521 644.563L126.512 644.537C126.505 644.519 126.499 644.501 126.492 644.483C126.479 644.449 126.465 644.415 126.451 644.381C125.468 642.089 125.06 639.105 125.17 635.349C125.28 631.607 125.898 627.274 126.826 622.375C126.956 621.687 127.092 620.989 127.233 620.282C145.105 616.556 158.035 618.871 168.914 624.395C180.117 630.084 189.302 639.23 199.595 649.478L199.621 649.505C200.276 650.156 200.935 650.812 201.599 651.472C212.631 662.433 224.951 674.252 241.967 683.258C257.561 691.511 276.986 697.347 302.869 698.195C263.825 725.323 212.529 727.141 177.624 720.523L176.693 725.436C214.132 732.534 270.624 730.288 311.849 697.763C342.384 673.673 364.135 633.298 363.89 568.933C370.837 569.328 377.683 569.879 384.413 570.659C412.828 573.954 438.794 581.317 460.858 598.136L463.889 594.159C440.837 576.587 413.877 569.043 384.989 565.693C378.057 564.889 370.992 564.325 363.827 563.923C363.639 555.044 363.043 545.722 362.004 535.937C357.24 491.056 362.438 457.918 373.819 433.805C385.178 409.74 402.78 394.482 423.219 385.453C464.162 367.366 516.641 374.24 552.762 386.394C572.985 399.725 589.852 414.512 603.767 430.353C588.223 451.262 576.046 478.776 566.565 509.417C555.466 545.286 548 585.646 543.201 625.156C533.608 704.129 534.634 780.044 538.773 810.396L543.727 809.721C539.663 779.917 538.606 704.453 548.164 625.759C552.941 586.434 560.359 546.388 571.341 510.895C580.607 480.95 592.367 454.391 607.109 434.245C653.494 489.516 665.083 556.966 658.433 620.084C654.059 661.597 641.791 701.183 626.357 734.068C610.905 766.993 592.366 793.018 575.582 807.537L578.853 811.318C596.353 796.18 615.259 769.484 630.883 736.193C646.527 702.861 658.967 662.736 663.405 620.608C670.201 556.115 658.231 486.807 610.211 430.159C611.99 427.9 613.811 425.732 615.674 423.66C684.391 347.259 690.999 253.551 684.321 203.05C696.565 199.922 714.97 198.32 742.85 198.586ZM683.6 198.076C682.9 193.655 682.1 189.627 681.238 186.039L676.376 187.207C677.248 190.835 678.055 194.933 678.755 199.445C678.669 199.473 678.583 199.501 678.497 199.529C671.976 201.649 667.158 204.355 663.605 207.686C660.032 211.036 657.864 214.9 656.476 219.13C655.104 223.309 654.488 227.868 654.011 232.602C653.875 233.948 653.751 235.306 653.625 236.68L653.625 236.687L653.624 236.691C653.301 240.225 652.967 243.871 652.404 247.726C650.857 258.312 647.615 270.123 638.292 282.961C624.745 301.616 612.564 309.878 601.076 312.667C589.535 315.468 578.206 312.877 565.994 308.726C562.817 307.646 559.585 306.458 556.289 305.246C540.149 299.314 522.463 292.814 502.06 295.604C537.652 274.846 560.353 255.795 574.976 238.21C592.252 217.434 598.162 198.812 600.822 182.127C601.808 175.938 602.351 169.978 602.863 164.359L602.865 164.34L602.865 164.336C603.036 162.464 603.203 160.631 603.382 158.839C604.106 151.593 605.027 144.968 607.094 138.768C611.149 126.603 619.761 115.63 641.368 105.598C641.46 105.556 641.549 105.507 641.635 105.454C652.597 98.6394 666.544 97.5149 682.666 99.2109C695.084 100.517 708.462 103.45 722.408 106.507C726.585 107.423 730.814 108.35 735.083 109.247C769.082 116.397 805.558 121.702 835.158 102.094C803.222 186.972 760.256 197.875 743.788 193.667C743.594 193.617 743.395 193.591 743.194 193.589C715.481 193.312 696.575 194.848 683.6 198.076ZM118.308 499.261C117.506 498.406 116.706 497.539 115.909 496.661L112.206 500.021C115.774 503.953 119.396 507.654 123.067 511.138C134.803 537.35 133.203 563.85 129.105 586.955C127.971 593.348 126.65 599.462 125.372 605.239C125.188 606.066 125.006 606.888 124.825 607.703C124.182 610.597 123.558 613.407 122.988 616.11C122.544 616.216 122.098 616.326 121.65 616.439L122.348 619.212C122.197 619.966 122.052 620.71 121.913 621.445C120.968 626.435 120.294 631.069 120.172 635.202C120.053 639.272 120.461 643.031 121.806 646.235C136.545 692.515 145.891 739.731 148.283 771.009C146.53 768.503 144.438 766.154 142.112 763.932C135.874 757.975 127.749 752.745 119.415 747.734C117.346 746.49 115.265 745.26 113.192 744.034L113.187 744.031L113.176 744.024C106.814 740.264 100.515 736.539 94.7877 732.552C87.1958 727.267 80.9038 721.711 77.0738 715.376C76.9957 715.247 76.906 715.125 76.8059 715.012C47.7053 682.157 35.7941 654.084 33.5591 629.834C31.3245 605.589 38.7285 584.807 48.9596 566.445C54.0801 557.255 59.8897 548.705 65.5393 540.632C66.5393 539.203 67.536 537.787 68.5235 536.384L68.5251 536.382L68.5267 536.379L68.5302 536.374L68.532 536.372C73.0923 529.891 77.457 523.689 81.0607 517.785C89.7583 503.536 94.7808 489.833 86.5074 476.808C29.0857 386.41 37.7759 327.245 54.5962 303.702C64.898 312.021 73.2371 327.59 79.5139 344.473C86.1279 362.263 90.2558 380.959 92.0235 392.704C92.1459 393.517 92.6608 394.219 93.4003 394.579C115.401 405.303 121.298 427.217 121.777 449.334C122.015 460.351 120.898 471.208 119.861 480.433C119.778 481.167 119.696 481.891 119.615 482.605L119.615 482.607C119.19 486.355 118.797 489.818 118.554 492.825C118.363 495.181 118.253 497.365 118.308 499.261ZM128.345 614.966C128.776 612.976 129.232 610.922 129.702 608.806L129.703 608.8L129.703 608.798L129.927 607.793C130.035 607.305 130.144 606.813 130.253 606.319C131.534 600.533 132.875 594.332 134.028 587.829C137.718 567.026 139.531 542.929 131.33 518.552C180.834 560.496 238.392 566.303 293.841 567.491C302.123 567.668 310.344 567.743 318.48 567.816L318.487 567.817H318.49C332.23 567.941 345.733 568.064 358.89 568.675C359.199 631.515 338.186 670.273 309.426 693.302C280.972 693.296 260.41 687.362 244.306 678.839C228 670.209 216.129 658.86 205.123 647.925C204.409 647.216 203.698 646.507 202.989 645.801L202.981 645.793L202.966 645.778C192.84 635.689 183.115 625.999 171.178 619.937C159.622 614.068 146.133 611.646 128.345 614.966ZM844.981 24.0573C836.489 100.685 850.883 140.074 871.375 158.559C891.933 177.103 919.511 175.369 938.91 167.773L941.212 166.872L942.139 169.164C964.73 225.021 1004.42 246.205 1044.92 250.197C1083.5 253.999 1122.92 242.19 1148.99 229.349L1147.63 228.613L1147.29 228.152C1134 209.824 1125.67 190.393 1118.58 172.519C1117.6 170.056 1116.65 167.628 1115.71 165.239C1109.8 150.168 1104.51 136.665 1097.38 125.956C1089.25 113.729 1078.85 105.357 1062.51 102.889C1045.97 100.39 1023.06 103.901 989.915 116.284L986.306 117.632L986.545 113.787C988.674 79.476 983.882 55.2875 974.949 38.6605C966.059 22.1125 952.969 12.8664 938.009 8.55191C908.271 -0.0241289 870.943 10.8569 844.981 24.0573Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M814.664 345.069C816 344.83 817.283 345.701 817.554 347.031C823.305 375.254 822.557 416.333 801.102 447.404C779.462 478.744 737.318 499.14 662 486.927C661.166 486.791 660.456 486.243 660.114 485.47C659.772 484.697 659.844 483.803 660.305 483.095C669.253 469.353 685.399 449.499 704.856 434.506C723.808 419.902 746.444 409.509 768.812 414.778C776.728 405.847 787.949 392.303 797.096 379.328C801.871 372.556 806.036 366 808.873 360.372C810.291 357.557 811.349 355.031 811.99 352.865C812.642 350.662 812.805 349.027 812.633 347.91C812.427 346.569 813.328 345.308 814.664 345.069ZM814.571 360.056C814.188 360.896 813.776 361.753 813.338 362.622C810.343 368.564 806.021 375.346 801.183 382.209C791.499 395.945 779.571 410.251 771.535 419.238C770.907 419.941 769.937 420.231 769.026 419.987C748.468 414.489 726.895 423.836 707.907 438.467C690.47 451.903 675.691 469.442 666.658 482.592C738.294 493.299 777.146 473.298 796.988 444.563C814.555 419.122 817.643 386.264 814.571 360.056Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M835.508 787.52C828.105 806.014 816.836 818.983 798.772 819.499L798.414 819.509L798.067 819.418C782.467 815.33 753.01 801.649 732.714 782.237C722.554 772.52 714.476 761.165 711.779 748.641C709.052 735.979 711.903 722.475 722.926 708.791C732.387 697.046 741.721 691.443 751.605 687.609C755.99 685.909 760.492 684.555 765.073 683.176C765.588 683.021 766.104 682.866 766.621 682.71C771.767 681.156 777.068 679.503 782.689 677.205C803.795 668.574 830.06 650.573 866.683 593.434C868.271 590.247 870.01 587.338 871.922 584.752C874.615 577.46 877.944 570.559 881.592 564.011C886.843 554.586 892.776 545.862 898.443 537.765C899.464 536.307 900.474 534.871 901.47 533.456C906.029 526.976 910.28 520.935 913.793 515.18C922.428 501.034 925.844 489.812 919.287 479.489C859.74 385.744 869.45 323.221 889.158 298.641C889.983 297.612 891.466 297.401 892.545 298.159C905.078 306.958 914.495 324.696 921.201 342.731C927.719 360.264 931.862 378.609 933.77 390.676C957.389 402.867 963.293 426.909 963.776 449.226C964.022 460.61 962.868 471.76 961.83 480.992C961.747 481.722 961.666 482.439 961.586 483.142L961.581 483.19C961.156 486.942 960.774 490.309 960.537 493.229C960.274 496.475 960.211 498.962 960.412 500.689C961.803 503.183 963.069 505.682 964.217 508.182C1013.94 554.908 1072.91 561.249 1130.95 562.492C1139.08 562.666 1147.21 562.739 1155.29 562.813H1155.3C1168.99 562.937 1182.57 563.06 1195.82 563.668C1195.63 555.047 1195.04 545.986 1194.03 536.465C1189.2 490.987 1194.41 456.859 1206.3 431.671C1218.21 406.434 1236.75 390.355 1258.2 380.879C1295.11 364.573 1340.52 367.852 1375.83 377.039C1352.27 360.26 1323.25 334.886 1300.2 304.41C1272.45 267.722 1253.04 223.225 1262.85 177.267C1272.45 132.29 1280.37 104.297 1286.39 87.5606C1289.39 79.2048 1291.95 73.5664 1294.06 69.9992C1295.11 68.2262 1296.1 66.858 1297.06 65.9154C1297.9 65.0916 1299.24 64.0611 1300.91 64.2466L1300.36 69.216C1300.68 69.2522 1300.89 69.1815 1300.96 69.1502C1300.91 69.1816 1300.78 69.2722 1300.57 69.4787C1300.05 69.9891 1299.31 70.9432 1298.37 72.5421C1296.49 75.7187 1294.05 81.0231 1291.09 89.2523C1285.18 105.686 1277.32 133.432 1267.74 178.311C1258.37 222.208 1276.82 265.211 1304.19 301.394C1331.53 337.54 1367.47 366.468 1392.2 382.012L1392.22 382.025L1392.24 382.039C1412.67 395.473 1429.75 410.365 1443.88 426.314C1445.53 424.241 1447.23 422.24 1448.96 420.317C1516.13 345.633 1522.83 254.019 1516.47 204.474C1510.75 206.399 1506.81 208.723 1504.02 211.334C1501.17 214.013 1499.4 217.11 1498.23 220.689C1497.03 224.318 1496.46 228.416 1495.99 233.103C1495.86 234.363 1495.74 235.67 1495.62 237.015C1495.29 240.593 1494.94 244.448 1494.35 248.449C1492.72 259.594 1489.26 272.235 1479.34 285.899C1465.39 305.108 1452.31 314.358 1439.25 317.526C1426.26 320.68 1413.77 317.67 1401.38 313.46C1398.05 312.327 1394.72 311.109 1391.37 309.885L1391.37 309.883C1369.57 301.913 1347.02 293.668 1318.73 306.887C1317.5 307.461 1316.04 306.951 1315.43 305.737C1314.83 304.523 1315.3 303.049 1316.5 302.413C1363.66 277.418 1391.48 255.043 1408.13 235.013C1424.73 215.049 1430.34 197.309 1432.88 181.34C1433.84 175.332 1434.36 169.612 1434.87 164.035C1435.05 162.122 1435.22 160.227 1435.41 158.342C1436.14 151.031 1437.1 143.942 1439.35 137.186C1443.92 123.468 1453.66 111.588 1476.13 101.127C1488.49 93.5017 1503.75 92.5094 1520.19 94.2383C1532.91 95.5766 1546.67 98.5928 1560.67 101.663C1564.8 102.569 1568.96 103.48 1573.11 104.354C1609.98 112.107 1647.12 116.957 1675.75 93.2038C1676.61 92.4866 1677.85 92.4338 1678.77 93.0747C1679.69 93.7156 1680.08 94.8929 1679.7 95.953C1647.42 188.265 1600.9 203.707 1579.85 198.586C1551.97 198.32 1533.57 199.922 1521.32 203.05C1528 253.551 1521.39 347.259 1452.67 423.66C1450.81 425.732 1448.99 427.9 1447.21 430.159C1495.23 486.807 1507.2 556.115 1500.41 620.608C1495.97 662.736 1483.53 702.861 1467.88 736.193C1452.26 769.484 1433.35 796.18 1415.85 811.318L1412.58 807.537C1429.37 793.018 1447.9 766.993 1463.36 734.068C1478.79 701.183 1491.06 661.597 1495.43 620.084C1502.08 556.966 1490.49 489.516 1444.11 434.245C1429.37 454.391 1417.61 480.95 1408.34 510.895C1397.36 546.388 1389.94 586.434 1385.16 625.759C1375.61 704.453 1376.66 779.917 1380.73 809.721L1375.77 810.396C1371.63 780.044 1370.61 704.129 1380.2 625.156C1385 585.646 1392.47 545.286 1403.56 509.417C1413.05 478.776 1425.22 451.262 1440.77 430.353C1426.85 414.512 1409.98 399.725 1389.76 386.394C1353.64 374.24 1301.16 367.366 1260.22 385.453C1239.78 394.482 1222.18 409.74 1210.82 433.805C1199.44 457.918 1194.24 491.056 1199 535.937C1200.04 545.722 1200.64 555.044 1200.83 563.923C1207.99 564.325 1215.05 564.888 1221.99 565.692C1250.87 569.042 1277.83 576.587 1300.89 594.159L1297.86 598.135C1275.79 581.317 1249.82 573.954 1221.41 570.659C1214.68 569.879 1207.84 569.328 1200.89 568.933C1201.14 633.298 1179.38 673.673 1148.85 697.763C1107.62 730.288 1051.13 732.534 1013.69 725.436L1014.62 720.523C1049.53 727.141 1100.82 725.323 1139.87 698.195C1113.99 697.347 1094.56 691.511 1078.97 683.258C1061.95 674.252 1049.63 662.433 1038.6 651.472C1038.3 651.172 1038 650.873 1037.7 650.575C1037.34 650.217 1036.98 649.861 1036.62 649.505L1036.6 649.479C1026.3 639.23 1017.12 630.084 1005.91 624.395C995.035 618.871 982.105 616.556 964.233 620.282C964.092 620.989 963.956 621.687 963.826 622.375C962.898 627.274 962.28 631.607 962.17 635.349C962.06 639.105 962.468 642.089 963.451 644.381C963.483 644.455 963.511 644.53 963.535 644.607C981.011 699.45 991.096 756.027 990.889 786.349C991.578 793.263 992.003 797.714 992.232 800.336C992.352 801.705 992.422 802.615 992.447 803.118C992.453 803.244 992.458 803.374 992.459 803.492C992.459 803.549 992.458 803.634 992.452 803.729L992.452 803.731C992.451 803.76 992.437 804.07 992.319 804.417C992.282 804.528 992.202 804.738 992.05 804.974C991.911 805.189 991.578 805.634 990.956 805.908C990.223 806.231 989.472 806.154 988.902 805.892C988.424 805.672 988.139 805.359 988.019 805.214C987.776 804.922 987.66 804.642 987.634 804.579C987.609 804.52 987.589 804.466 987.573 804.421C987.559 804.382 987.549 804.35 987.542 804.327C987.487 804.15 987.454 803.976 987.44 803.902C987.196 802.627 986.425 796.178 985.803 790.784C985.788 790.652 985.783 790.52 985.789 790.387C985.842 789.175 985.875 787.906 985.887 786.582L985.799 785.698C985.123 778.939 981.437 773.067 975.659 767.548C969.86 762.01 962.163 757.025 953.838 752.019C951.84 750.818 949.804 749.614 947.755 748.402C941.354 744.619 934.825 740.759 928.931 736.656C921.213 731.283 914.294 725.305 909.915 718.16C880.438 684.83 867.936 655.851 865.58 630.293C864.891 622.818 865.073 615.666 865.938 608.816C862.944 618.191 860.633 629.172 858.724 641.216C856.226 656.976 854.455 674.226 852.666 691.661L852.665 691.668L852.665 691.674C851.754 700.548 850.838 709.469 849.819 718.266C846.815 744.198 842.913 769.023 835.508 787.52ZM876.136 587.798C871.579 600.605 869.149 614.53 870.559 629.834C872.794 654.084 884.705 682.157 913.806 715.012C913.906 715.125 913.996 715.247 914.074 715.376C917.904 721.711 924.196 727.267 931.788 732.552C937.515 736.539 943.814 740.264 950.176 744.025C952.254 745.254 954.341 746.487 956.415 747.734C964.749 752.745 972.874 757.975 979.112 763.932C981.438 766.154 983.53 768.503 985.283 771.009C982.891 739.731 973.545 692.515 958.806 646.235C957.461 643.031 957.053 639.272 957.172 635.202C957.294 631.069 957.968 626.435 958.913 621.445C959.052 620.71 959.197 619.966 959.348 619.212L958.65 616.439C959.098 616.326 959.544 616.216 959.988 616.11C960.558 613.407 961.182 610.598 961.825 607.704C961.907 607.333 961.99 606.962 962.072 606.588C962.172 606.14 962.272 605.69 962.372 605.239C963.65 599.462 964.971 593.348 966.105 586.955C970.203 563.851 971.803 537.353 960.069 511.143C956.397 507.657 952.773 503.954 949.203 500.021L952.906 496.661C953.704 497.54 954.505 498.408 955.308 499.263C955.253 497.367 955.363 495.182 955.554 492.825C955.797 489.818 956.19 486.354 956.615 482.605L956.621 482.554C956.7 481.856 956.78 481.149 956.861 480.433C957.898 471.208 959.015 460.351 958.777 449.334C958.298 427.217 952.401 405.303 930.4 394.579C929.661 394.218 929.146 393.517 929.023 392.704C927.256 380.959 923.128 362.263 916.514 344.473C910.237 327.59 901.898 312.021 891.596 303.702C874.776 327.245 866.086 386.41 923.507 476.808C931.781 489.833 926.758 503.536 918.061 517.785C914.455 523.693 910.087 529.9 905.523 536.384L905.52 536.389C904.533 537.791 903.538 539.205 902.539 540.632C896.89 548.705 891.08 557.255 885.96 566.445C882.514 572.628 879.39 579.085 876.846 585.857L877.184 586.096C876.834 586.667 876.484 587.234 876.136 587.798ZM968.331 518.555C976.531 542.931 974.718 567.026 971.028 587.829C969.875 594.332 968.534 600.532 967.253 606.319C967.068 607.155 966.885 607.982 966.703 608.8C966.233 610.918 965.776 612.974 965.345 614.966C983.133 611.646 996.622 614.068 1008.18 619.937C1020.12 625.999 1029.84 635.689 1039.97 645.778L1040.75 646.559C1041.21 647.014 1041.66 647.469 1042.12 647.925C1053.13 658.86 1065 670.209 1081.31 678.839C1097.41 687.362 1117.97 693.296 1146.43 693.302C1175.19 670.273 1196.2 631.515 1195.89 568.675C1182.73 568.064 1169.23 567.941 1155.49 567.816H1155.48C1147.34 567.742 1139.12 567.668 1130.84 567.49C1075.39 566.303 1017.83 560.496 968.331 518.555ZM1520.6 198.076C1533.58 194.848 1552.48 193.312 1580.19 193.589C1580.39 193.591 1580.59 193.617 1580.79 193.667C1597.26 197.875 1640.22 186.972 1672.16 102.094C1642.56 121.702 1606.08 116.397 1572.08 109.247C1567.82 108.35 1563.59 107.423 1559.41 106.508L1559.41 106.507C1545.46 103.45 1532.08 100.517 1519.67 99.2109C1503.54 97.5149 1489.6 98.6394 1478.63 105.454C1478.55 105.507 1478.46 105.556 1478.37 105.598C1456.76 115.63 1448.15 126.603 1444.09 138.768C1442.03 144.968 1441.11 151.593 1440.38 158.839C1440.2 160.638 1440.03 162.48 1439.86 164.36C1439.35 169.978 1438.81 175.938 1437.82 182.127C1435.16 198.812 1429.25 217.434 1411.98 238.21C1397.35 255.795 1374.65 274.846 1339.06 295.604C1359.46 292.814 1377.15 299.314 1393.29 305.246C1396.58 306.458 1399.82 307.646 1402.99 308.726C1415.21 312.877 1426.53 315.468 1438.08 312.667C1449.56 309.878 1461.75 301.616 1475.29 282.961C1484.61 270.123 1487.86 258.312 1489.4 247.726C1489.97 243.869 1490.3 240.221 1490.62 236.687C1490.75 235.31 1490.87 233.95 1491.01 232.602C1491.49 227.868 1492.1 223.309 1493.48 219.13C1494.86 214.9 1497.03 211.036 1500.61 207.686C1504.16 204.355 1508.98 201.649 1515.5 199.529C1515.58 199.501 1515.67 199.473 1515.76 199.445C1515.06 194.933 1514.25 190.835 1513.38 187.207L1518.24 186.039C1519.1 189.627 1519.9 193.655 1520.6 198.076ZM859.401 613.294C857.123 621.621 855.314 630.792 853.786 640.433C851.267 656.322 849.47 673.82 847.671 691.344L847.671 691.346L847.671 691.348C846.763 700.19 845.855 709.039 844.852 717.691C841.846 743.644 837.995 767.856 830.867 785.662C823.793 803.33 813.852 813.903 798.985 814.489C783.992 810.47 755.616 797.223 736.17 778.624C726.382 769.262 719.07 758.748 716.667 747.588C714.293 736.567 716.632 724.575 726.82 711.928C735.658 700.956 744.229 695.833 753.413 692.271C757.605 690.646 761.916 689.348 766.526 687.961L766.537 687.957C767.043 687.805 767.553 687.651 768.067 687.496C773.232 685.937 778.726 684.227 784.582 681.833C804.567 673.66 828.226 657.721 859.401 613.294Z"
+                    fill="white" />
+                <path
+                    d="M1300.96 69.1502C1300.97 69.1397 1300.98 69.1359 1300.98 69.1366L1300.98 69.1381C1300.98 69.1392 1300.98 69.1408 1300.97 69.1428L1300.97 69.1451L1300.96 69.1502Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M1672.51 787.52C1665.1 806.014 1653.84 818.983 1635.77 819.499L1635.41 819.509L1635.07 819.418C1619.47 815.33 1590.01 801.649 1569.71 782.237C1559.55 772.52 1551.48 761.165 1548.78 748.641C1546.05 735.979 1548.9 722.475 1559.93 708.791C1569.39 697.046 1578.72 691.443 1588.61 687.609C1592.99 685.91 1597.49 684.556 1602.07 683.178L1602.07 683.177L1602.07 683.177L1603.62 682.71C1608.77 681.156 1614.07 679.503 1619.69 677.205C1640.8 668.574 1667.06 650.573 1703.68 593.434C1705.59 589.599 1707.72 586.169 1710.11 583.217L1714.18 586.096C1712.1 589.492 1710.05 592.767 1708.02 595.926C1702.38 607.383 1698.6 623.097 1695.72 641.216C1693.23 656.976 1691.46 674.226 1689.67 691.661L1689.66 691.68L1689.66 691.685C1688.75 700.555 1687.84 709.473 1686.82 718.266C1683.82 744.198 1679.91 769.023 1672.51 787.52ZM1696.4 613.294C1694.12 621.621 1692.31 630.792 1690.79 640.433C1688.27 656.323 1686.47 673.823 1684.67 691.348C1683.76 700.19 1682.85 709.039 1681.85 717.691C1678.85 743.644 1674.99 767.856 1667.87 785.662C1660.79 803.33 1650.85 813.903 1635.98 814.489C1620.99 810.47 1592.62 797.223 1573.17 778.624C1563.38 769.262 1556.07 758.748 1553.67 747.588C1551.29 736.567 1553.63 724.575 1563.82 711.928C1572.66 700.956 1581.23 695.833 1590.41 692.271C1594.61 690.646 1598.92 689.348 1603.53 687.961C1604.04 687.807 1604.55 687.653 1605.07 687.496C1610.23 685.937 1615.73 684.227 1621.58 681.833C1641.57 673.66 1665.23 657.721 1696.4 613.294Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M1654.55 347.031C1654.28 345.701 1653 344.83 1651.66 345.069C1650.33 345.308 1649.43 346.569 1649.63 347.91C1649.8 349.027 1649.64 350.662 1648.99 352.865C1648.35 355.031 1647.29 357.557 1645.87 360.372C1643.04 366 1638.87 372.556 1634.1 379.328C1624.95 392.303 1613.73 405.847 1605.81 414.778C1583.44 409.509 1560.81 419.902 1541.86 434.506C1522.4 449.499 1506.25 469.353 1497.31 483.095C1496.84 483.803 1496.77 484.697 1497.11 485.47C1497.46 486.243 1498.17 486.791 1499 486.927C1574.32 499.14 1616.46 478.744 1638.1 447.404C1659.56 416.333 1660.3 375.254 1654.55 347.031ZM1650.34 362.622C1650.78 361.753 1651.19 360.896 1651.57 360.056C1654.64 386.264 1651.55 419.122 1633.99 444.563C1614.15 473.298 1575.29 493.299 1503.66 482.592C1512.69 469.442 1527.47 451.903 1544.91 438.467C1563.9 423.836 1585.47 414.489 1606.03 419.987C1606.94 420.231 1607.91 419.941 1608.54 419.238C1616.57 410.251 1628.5 395.945 1638.18 382.209C1643.02 375.346 1647.34 368.564 1650.34 362.622Z"
+                    fill="white" />
+            </svg>
+
+            <div class="timeline-pala"></div>
+            <div>
+                <h1 class="first" style="position: relative; z-index: 2;">Palarino</h1>
+                <h1 class="second" style="position: relative; z-index: 2;">Portfolio</h1>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- project -->
+    <section class="project pala">
+        <div class="container container-pala">
+
+            <div class="row row-pala justify-content-between">
+
+                <div class="col-12 col-lg-6 pala-column desktop">
+                    <div class="pala-images">
+                        <img src="assets/img/projects/pala/pala1.webp" alt="inicio palarino portfolio personal">
+                        <!-- <p class="mt-4 mb-6">
+                            La web cuenta con un <strong>filtrado</strong> para poder categorizar y así mostrar los
+                            trabajos realizados en esa área de diseño
+                        </p> -->
+                        <img src="assets/img/projects/pala/pala2.webp" alt="categorías palarino portfolio personal">
+                        <!-- <p class="mt-4 mb-6">
+                            La web cuenta con un <strong>filtrado</strong> para poder categorizar y así mostrar los
+                            trabajos realizados en esa área de diseño
+                        </p> -->
+                        <img src="assets/img/projects/pala/pala3.webp" alt="shop palarino portfolio personal">
+                        <!-- <p class="mt-4 mb-6">
+                            A su vez la web facilita la venta de sus obras a través de un <strong>catálogo de
+                                impresiones</strong> disponibles para el público.
+                        </p> -->
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class="row tags">
+                        <p data-section="projects" data-value="pala-tag">UX/UI Diseño</p>
+                        <p>Front-end</p>
+                    </div>
+                    <h6 class="subtitle" data-section="projects" data-value="pala-type">2023 - proyecto freelance</h6>
+                    <h4>Palarino Portfolio</h4>
+                    <div>
+                        <div>
+                            <p class="mb-4" data-section="projects" data-value="pala-description1">
+                                El proyecto tuvo como objetivo establecer una presencia en línea para el diseñador
+                                gráfico e
+                                ilustrador <strong>Juan Palarino</strong>, mostrando su <strong>portafolio
+                                    profesional</strong>.
+                            </p>
+
+                            <p class="mb-4" data-section="projects" data-value="pala-description2">
+                                Mi enfoque al diseñar el sitio web con un estilo minimalista permite que la marca y la
+                                visión artística brillen en los canales digitales.
+                            </p>
+
+                            <p data-section="projects" data-value="pala-description3">
+                                Este diseño mejora la <strong>visibilidad de su trabajo</strong>, ampliando su alcance y
+                                atrayendo nuevas audiencias a su portafolio.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="technologies">
+                        <h5>Html</h5>
+                        <h5>/</h5>
+                        <h5>Bootstrap</h5>
+                        <h5>/</h5>
+                        <h5>Sass</h5>
+                        <h5>/</h5>
+                        <h5>Javacript</h5>
+                        <h5>/</h5>
+                        <h5>AdobeXd</h5>
+                    </div>
+
+                    <div class="mt-8">
+                        <div class="btn btn-project">
+                            <a href="https://juanpala-web.netlify.app" data-section="projects" data-value="pala-button">Ver proyecto<i
+                                    class="bi bi-arrow-up-right ms-4"></i></a>
+                        </div>
+                        <div class="btn btn-project">
+                            <a href="https://github.com/mariaeugeniamaspolii/Palarino-portfolio_web.git" aria-label="ver en github"><i class="bi bi-github" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mobile project-images">
+                    <div class="images-gap">
+                        <img loading="lazy" src="assets/img/projects/pala/pala1.webp"
+                            alt="inicio palarino portfolio personal">
+                        <img loading="lazy" src="assets/img/projects/pala/pala2.webp"
+                            alt="categorías palarino portfolio personal">
+                        <img loading="lazy" src="assets/img/projects/pala/pala3.webp"
+                            alt="shop palarino portfolio personal">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <div class="bg-bg-pala title-container">
+        <section class="pb-4 pb-pd-5 pt-5 pt-pd-6 title bg-background">
+            <div class="container ps-0 pe-0">
+                <h3 data-section="projects" data-value="title2">Otros Proyectos</h3>
+            </div>
+        </section>
+    </div>
+
+    <!-- Otros proyectos -->
+    <div id="projects-container"></div>
+
+
+    <footer>
+        <section class="mb-9 mt-8 footer">
+
+            <div class="container justify-content-center">
+                <article>
+                    <h6 class="text-center" style="text-wrap: balance;" data-section="footer" data-value="text1">Explorando nuevas oportunidades
+                    </h6>
+                    <h3 class="text-center" data-section="footer" data-value="text2">Hablémos!</h3>
+                </article>
+                <article id="contact" class="d-flex justify-content-center gap-lg-3 mt-5 mt-lg-7">
+                    <a href="https://www.linkedin.com/in/maria-eugenia-m%C3%A1spoli/" class="mx-2"><i
+                            class="bi bi-linkedin fs-3"></i></a>
+                    <a href="https://github.com/mariaeugeniamaspolii" class="mx-2"><i class="bi bi-github fs-3"></i></a>
+                    <a href="mailto:maria.maspoli@outlook.es" class="mx-2"><i class="bi bi-envelope-fill fs-3"></i></a>
+                </article>
+
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+    <script src="js/counter.js"></script>
+    <script src="js/language-change.js"></script>
+    <script src="js/gsap.js"></script>
+    <script src="js/stack.js"></script>
+    <script src="js/otherProjects.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js" defer></script>
+
+</body>
+
+</html>

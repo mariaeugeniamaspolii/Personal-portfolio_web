@@ -1,0 +1,42 @@
+[
+    {
+        "id": "rockwell",
+        "year": "2023 - academic project",
+        "tags": ["UX/UI Design", "Front-end"],
+        "description": [
+            "The web platform was designed to display a catalog of rock and metal albums. For this, <strong>data is fetched from a given API</strong>. To display them, I used a function that highlights one album as a banner every few records.",
+            "The project shows <strong>cross-navigation</strong> between the album details and the corresponding artist. Within the artist's section, there is also a gallery of albums where users can navigate back to an album."
+        ]
+    },
+    {
+        "id": "animalitos",
+        "year": "2022 - freelance project",
+        "tags": ["UX/UI Design"],
+        "description": [
+            "A <strong>local toy store</strong> asked me to design their web platform.",
+            "The goal was to create an <strong>attractive and colorful interface</strong> that highlighted the fun and excitement of the toys, making it easy for visitors to explore and purchase products intuitively.",
+            "The platform included sections designed to highlight <strong>featured products</strong> and allow filtering by age and toy type. Products could be filtered for a more efficient browsing experience. Each product had its own detailed page, providing complete information before purchase.",
+            "The website was also designed for <strong>mobile devices</strong>, maintaining the same fun and colorful design across all platforms. It was a project focused on delivering an exceptional user experience, reflecting the joy associated with the world of toys."
+        ]
+    },
+    {
+        "id": "ankar",
+        "year": "2021 - academic project",
+        "tags": ["UX/UI Design", "Fullstack Development"],
+        "description": [
+            "This project involved creating a web platform for a product catalog of free choice.",
+            "It required creating the <strong>database</strong>, then loading the products and enabling filtering. Each product had its own <strong>dynamically generated detail page</strong>.",
+            "Additionally, an <strong>Administrator section</strong> was created with private account login, providing the necessary <strong>admin dashboard</strong> to add new products, edit them, and track general stock statistics."
+        ]
+    },
+    {
+        "id": "nova",
+        "year": "2023 - academic project",
+        "tags": ["UX/UI Design", "Mobile Frontend Development"],
+        "description": [
+            "This project involved creating an app using the <strong>Ionic</strong> framework for <strong>mobile app development</strong>.",
+            "It had to be an e-commerce platform with products of choice. For <strong>data retrieval, filtering, and search</strong>, the Mercado Libre API and its various endpoints were required to achieve the desired functionalities.",
+            "It also used a provided API for <strong>user registration and authentication</strong> for logging in and storing personal user data, as well as for the <strong>editable shopping cart and favorite products</strong>."
+        ]
+    }
+]

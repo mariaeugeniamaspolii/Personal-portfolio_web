@@ -1,0 +1,67 @@
+{
+    "navbar": {
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "about": {
+        "title": "Diseñadora y Desarrolladora",
+        "about": "Hola! Soy María Eugenia Máspoli, diseñadora digital <span>Frontend</span> con conocimiento en Backend y React Native.",
+        "about2": "Comprometida a entregar trabajos de calidad y a seguir ampliando mis habilidades de manera constante.",
+        "download": "<i class='bi bi-download me-4'></i>Descargar mi CV"
+    },
+    "stack": {
+        "title": "Mis herramientas",
+        "text1": "Entusiasmada por mis herramientas actuales!",
+        "text2": "Siempre abierta a aprender más tecnologías para mejorar mis proyectos. <span>Sigamos creciendo juntos! </span>"
+    },
+    "projects": {
+        "title": "Proyectos destacados",
+
+        "shio-tag": "UX/UI Diseño",
+        "shio-type": "2022 - proyecto académico",
+        "shio-description1": "El proyecto consistió en crear una <strong>plataforma web</strong> para mostrar la línea de sales gourmet de SHIO, fomentando el conocimiento de la marca y la participación de la comunidad.",
+        "shio-description2": "El sitio muestra elegantemente los productos de SHIO, invitando a explorar y descubrir inspiración culinaria.",
+        "shio-description3": "Además, los usuarios pueden compartir sus propias recetas utilizando las sales de SHIO, cultivando así una comunidad en línea vibrante. A su vez, un <strong>mapa interactivo</strong> ayuda a los usuarios a localizar fácilmente los puntos de venta.",
+        "shio-button": "Ver proyecto<i class='bi bi-arrow-up-right ms-4'></i>",
+
+        "taurus-tag": "UX/UI Diseño",
+        "taurus-type": "2022 - proyecto freelance",
+        "taurus-description1": "El proyecto consistió en crear una <strong>plataforma web dinámica</strong> para Taurus Arcade, mostrando su línea de productos y permitiendo a los visitantes explorar varios artículos.",
+        "taurus-description2": "Para su <strong>diseño</strong> me inspiré en el mundo vibrante y dinámico de los videojuegos, manteniendo al mismo tiempo la estética de las salas de arcade originales, oscuras y con luces coloridas.",
+        "taurus-description3": "Además, la plataforma sirve como una herramienta vital para la <strong>promoción de la marca</strong> en las redes sociales, comunicando eficazmente el perfil y la estética única de Taurus Arcade.",
+        "taurus-button": "Ver proyecto<i class='bi bi-arrow-up-right ms-4'></i>",
+
+        "quest-tag1": "UX/UI Diseño",
+        "quest-tag2": "Desarrollo Móvil FullStack",
+        "quest-type": "2022 - proyecto académico",
+        "quest-description1": "Este proyecto consiste en la materialización de una aplicación móvil partiendo desde una extensa investigación de <strong>experiencia de usuario.</strong>",
+        "quest-description2": "Desde la conceptualización hasta el producto final, lo he elaborado meticulosamente para garantizar una experiencia intuitiva y amigable para el usuario.",
+        "quest-description3": "El <strong>backend</strong> fue desarrollado asegurando una funcionalidad robusta y una gestión eficiente de datos.",
+        "quest-description4": "Además, el <strong>frontend</strong> fue construido con <strong>React Native</strong>, ofreciendo una interfaz de usuario fluida y receptiva en varios dispositivos.",
+
+        "eventy-tag": "UX/UI Diseño",
+        "eventy-type": "2022 - proyecto académico",
+        "eventy-description1": "La aplicación representa una solución integral, para la participación en eventos.",
+        "eventy-description2": "Sus <strong>funcionalidades</strong> principales son el inicio personalizado para el usuario, un calendario, eventos guardados, compra de entradas y listado de amigos asistentes, a través de la fusión de un diseño centrado en el <strong>usuario y funcionalidad.</strong>",
+        "eventy-description3": "Para el <strong>diseño</strong> de la aplicación Eventy implicó llevar a cabo una <strong>investigación exhaustiva de UX</strong> para garantizar una <strong>experiencia de usuario</strong> fluida. Me centré en diseñar una plataforma intuitiva para la <strong>búsqueda de eventos</strong> y la compra de entradas, priorizando la accesibilidad y personalización.",
+
+        "fiat-tag": "UX/UI Diseño",
+        "fiat-type": "2022 - proyecto académico",
+        "fiat-description1": "El proyecto consistía en crear un <strong>prototipo digital interactivo móvil</strong> para su uso en la exposición retro sobre el automóvil Fiat 125, y otros vehículos populares en el Uruguay de los 60 a los 90.",
+        "fiat-description2": "El prototipo destaca los tres modelos más emblemáticos de la marca, proporcionando detalles sobre sus especificaciones técnicas y su historia.",
+        "fiat-description3": "A su vez se muestra un recorrido interactivo a lo largo de una línea cronológica que ilustra la evolución de los modelos de automóviles Fiat a lo largo de los años. Cada punto en la línea cronológica representa un año específico, acompañado de una descripción del modelo correspondiente, lo que permitirá a los visitantes de la exposición tener una visión completa del avance de Fiat en el tiempo.",
+
+        "pala-tag": "UX/UI Diseño",
+        "pala-type": "2023 - proyecto freelance",
+        "pala-description1": "El proyecto tuvo como objetivo establecer una presencia en línea para el diseñador gráfico e ilustrador <strong>Juan Palarino</strong>, mostrando su <strong>portafolio profesional</strong>.",
+        "pala-description2": "Mi enfoque al diseñar el sitio web con un estilo minimalista permite que la marca y la visión artística brillen en los canales digitales.",
+        "pala-description3": "Este diseño mejora la <strong>visibilidad de su trabajo</strong>, ampliando su alcance y atrayendo nuevas audiencias a su portafolio.",
+        "pala-button": "Ver proyecto<i class='bi bi-arrow-up-right ms-4'></i>",
+
+        "title2": "Otros proyectos"
+},
+"footer": {
+    "text1": "Explorando nuevas oportunidades",
+    "text2": "Hablémos!"
+}
+}

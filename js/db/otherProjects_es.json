@@ -1,0 +1,42 @@
+[
+    {
+        "id": "rockwell",
+        "year": "2023 - proyecto académico",
+        "tags": ["UX/UI Diseño", "Front-end"],
+        "description": [
+            "La plataforma web tenía como fin mostrar un catálogo de discos de rock y metal. Para la misma se <strong>levantan datos de una API</strong> dada. Para mostrarlos utilicé una función que cada tantos discos destaque uno en forma de banner.",
+            "El proyecto muestra la <strong>navegación cruzada</strong> entre el detalle de un álbum y el artista correspondiente, a su vez dentro del artista se muestra una galería de discos donde también se puede navegar al mismo."
+        ]
+    },
+    {
+        "id": "animalitos",
+        "year": "2022 - proyecto freelance",
+        "tags": ["UX/UI Diseño"],
+        "description": [
+            "Una <strong>juguetería local</strong> me solicitó realizar el diseño de su plataforma web.",
+            "El objetivo era crear una <strong>interfaz atractiva y colorida</strong> que destacara la diversión y la emoción de los juguetes, facilitando a los visitantes explorar y comprar productos de manera intuitiva.",
+            "La plataforma incluyó secciones diseñadas para resaltar <strong>productos destacados</strong> y permitir una categorización por edad, y por tipo de juguete. Los productos se podían filtrar para una experiencia de navegación más eficiente. Cada producto contaba con una página de detalle, proporcionando información completa antes de la compra.",
+            "La web también fue diseñada para <strong>dispositivos móviles</strong>, manteniendo la misma diversión y colorido en todas las plataformas. Fue un proyecto enfocado en ofrecer una experiencia de usuario excepcional, reflejando la alegría asociada con el mundo de los juguetes."
+        ]
+    },
+    {
+        "id": "ankar",
+        "year": "2021 - proyecto académico",
+        "tags": ["UX/UI Diseño", "Desarrollo Fullstack"],
+        "description": [
+            "Este proyecto consistió en crear una plataforma web de catálogo de productos a libre elección.",
+            "Para la misma se le debía realizar la <strong>base de datos</strong>, para luego levantar los productos y poder filtrarlos. Cada uno de los productos disponía de su pantalla de <strong>detalle generada dinámicamente</strong>.",
+            "A su vez se realizó la <strong>sección de Administrador</strong> con ingreso mediante cuenta privada, donde se disponía del <strong>dashboard administrador</strong> necesario para ingresar nuevos productos, editarlos y tener un seguimiento con estadísticas generales del stock."
+        ]
+    },
+    {
+        "id": "nova",
+        "year": "2023 - proyecto académico",
+        "tags": ["UX/UI Diseño", "Desarrollo móvil Frontend"],
+        "description": [
+            "Este proyecto consistía en la creación de una app utilizando el framework <strong>Ionic</strong> para desarrollo de <strong>aplicaciones móviles</strong>.",
+            "La misma debía ser un ecommerce de productos a elección, para la <strong>obtención de datos, filtrado y búsqueda</strong> se pedía utilizar la API de Mercado Libre y sus distintos endpoints para lograr las funcionalidades deseadas.",
+            "A su vez también utilizaba una API dada para el <strong>registro y autentificación de usuarios</strong> para el ingreso y almacenamiento de datos personales del usuario, y del <strong>carrito de compras editable y productos favoritos</strong>."
+        ]
+    }
+]

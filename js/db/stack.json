@@ -1,0 +1,80 @@
+[
+    {
+        "title": "React",
+        "image": "assets/img/logos/react.webp",
+        "alt": "React"
+    },
+    {
+        "title": "JavaScript",
+        "image": "assets/img/logos/js.webp",
+        "alt": "JavaScript"
+    },
+    {
+        "title": "Node js",
+        "image": "assets/img/logos/node.webp",
+        "alt": "Node js",
+        "style": "white-space: nowrap;"
+    },
+    {
+        "title": "Bootstrap",
+        "image": "assets/img/logos/bootstrap.webp",
+        "alt": "Bootstrap"
+    },
+    {
+        "title": "Sass",
+        "image": "assets/img/logos/sass.webp",
+        "alt": "Sass"
+    },
+    {
+        "title": "Mongo db",
+        "image": "assets/img/logos/mongo.webp",
+        "alt": "Mongo db",
+        "style": "white-space: nowrap;"
+    },
+    {
+        "title": "Figma",
+        "image": "assets/img/logos/figma.webp",
+        "alt": "Figma"
+    },
+    {
+        "title": "React Native",
+        "image": "assets/img/logos/react.webp",
+        "alt": "React Native",
+        "style": "white-space: nowrap;"
+    },
+    {
+        "title": "Ionic",
+        "image": "assets/img/logos/ionic.webp",
+        "alt": "Ionic"
+    },
+    {
+        "title": "Php",
+        "image": "assets/img/logos/php.webp",
+        "alt": "Php"
+    },
+    {
+        "title": "Github",
+        "image": "assets/img/logos/github.webp",
+        "alt": "Github"
+    },
+    {
+        "title": "Html",
+        "image": "assets/img/logos/html.webp",
+        "alt": "Html"
+    },
+    {
+        "title": "Css",
+        "image": "assets/img/logos/css.webp",
+        "alt": "Css"
+    },
+    {
+        "title": "Photoshop",
+        "image": "assets/img/logos/photoshop.webp",
+        "alt": "Photoshop"
+    },
+    {
+        "title": "Xd",
+        "image": "assets/img/logos/xd.webp",
+        "alt": "AdobeXd"
+    }
+]

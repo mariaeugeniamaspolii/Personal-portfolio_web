@@ -1,0 +1,52 @@
+[
+    {
+        "id": "rockwell",
+        "title": "Rockwell Records",
+        "technologies": ["React Js", "JavaScript XML", "React Bootstrap", "Sass", "Figma"],
+        "githubLink": "https://github.com/mariaeugeniamaspolii/Rockwell_web.git",
+        "images": [
+            "assets/img/projects/rockwell/rockwell1.webp",
+            "assets/img/projects/rockwell/rockwell4.webp",
+            "assets/img/projects/rockwell/rockwell2.webp",
+            "assets/img/projects/rockwell/rockwell3.webp"
+        ]
+    },
+    {
+        "id": "animalitos",
+        "title": "Animalitos",
+        "technologies": ["Photoshop", "AdobeXd"],
+        "images": [
+            "assets/img/projects/animalitos/animalitos1.webp",
+            "assets/img/projects/animalitos/animalitos2.webp",
+            "assets/img/projects/animalitos/animalitos3.webp",
+            "assets/img/projects/animalitos/animalitos7.webp",
+            "assets/img/projects/animalitos/animalitos8.webp",
+            "assets/img/projects/animalitos/animalitos9.webp"
+        ]
+    },
+    {
+        "id": "ankar",
+        "title": "Ankar",
+        "technologies": ["Php", "Html", "Sass", "Bootstrap", "AdobeXd"],
+        "githubLink": "https://github.com/mariaeugeniamaspolii/Ankar-web.git",
+        "images": [
+            "assets/img/projects/ankar/ankar2.webp",
+            "assets/img/projects/ankar/ankar1.webp",
+            "assets/img/projects/ankar/ankar5.webp",
+            "assets/img/projects/ankar/ankar3.webp",
+            "assets/img/projects/ankar/ankar4.webp"
+        ]
+    },
+    {
+        "id": "nova",
+        "title": "Nova Tech App",
+        "technologies": ["Html", "Sass", "Bootstrap", "Javascript", "AdobeXd"],
+        "githubLink": "https://github.com/mariaeugeniamaspolii/Nova-tech_app.git",
+        "images": [
+            "assets/img/projects/nova/nova1.webp",
+            "assets/img/projects/nova/nova2.webp",
+            "assets/img/projects/nova/nova3.webp",
+            "assets/img/projects/nova/nova4.webp"
+        ]
+    }
+]

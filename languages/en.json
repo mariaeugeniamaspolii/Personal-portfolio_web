@@ -1,0 +1,67 @@
+{
+    "navbar": {
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "about": {
+        "title": "Designer and Developer",
+        "about": "Hello! I’m María Eugenia Máspoli, a digital <span>Frontend</span> designer with knowledge in Backend and React Native.",
+        "about2": "Committed to delivering quality work and constantly expanding my skills.",
+        "download": "<i class='bi bi-download me-4'></i>Download my CV"
+    },
+    "stack": {
+        "title": "My stack",
+        "text1": "Excited about my current stack!",
+        "text2": "Always open to learning more technologies to improve my projects. <span>Let's keep growing together!</span>"
+    },
+    "projects": {
+        "title": "Featured projects",
+
+        "shio-tag": "UX/UI Design",
+        "shio-type": "2022 - academic project",
+        "shio-description1": "The project consisted of creating a <strong>web platform</strong> to showcase SHIO's gourmet salt line, promoting brand awareness and community engagement.",
+        "shio-description2": "The site elegantly displays SHIO’s products, inviting users to explore and discover culinary inspiration.",
+        "shio-description3": "Additionally, users can share their own recipes using SHIO salts, cultivating a vibrant online community. A <strong>dynamic map</strong> also helps users easily locate sales points.",
+        "shio-button": "View project<i class='bi bi-arrow-up-right ms-4'></i>",
+        
+        "taurus-tag": "UX/UI Design",
+        "taurus-type": "2022 - freelance project",
+        "taurus-description1": "The project involved creating a <strong>dynamic web platform</strong> for Taurus Arcade, showcasing its product line and allowing visitors to explore various items.",
+        "taurus-description2": "For its <strong>design</strong>, I drew inspiration from the vibrant and dynamic world of video games, while maintaining the aesthetics of original arcades, dark environments with colorful lights.",
+        "taurus-description3": "The platform also serves as a vital tool for <strong>brand promotion</strong> on social media, effectively communicating Taurus Arcade’s unique profile and aesthetic.",
+        "taurus-button": "View project<i class='bi bi-arrow-up-right ms-4'></i>",
+    
+        "quest-tag1": "UX/UI Design",
+        "quest-tag2": "FullStack Mobile Development",
+        "quest-type": "2022 - academic project",
+        "quest-description1": "This project focuses on creating a mobile application, starting with extensive <strong>user experience research</strong>.",
+        "quest-description2": "From conceptualization to the final product, I meticulously crafted it to ensure an intuitive and user-friendly experience.",
+        "quest-description3": "The <strong>backend</strong> was developed to ensure robust functionality and efficient data management.",
+        "quest-description4": "In addition, the <strong>frontend</strong> was built with <strong>React Native</strong>, offering a smooth and responsive user interface across various devices.",
+    
+        "eventy-tag": "UX/UI Design",
+        "eventy-type": "2022 - academic project",
+        "eventy-description1": "The application represents an all-in-one solution for event participation.",
+        "eventy-description2": "Its main <strong>features</strong> include personalized user login, a calendar, saved events, ticket purchases, and a friends list, merging user-centric <strong>design and functionality</strong>.",
+        "eventy-description3": "The <strong>design</strong> of the Eventy app involved conducting <strong>extensive UX research</strong> to ensure a seamless <strong>user experience</strong>. I focused on designing an intuitive platform for <strong>event search</strong> and ticket purchasing, prioritizing accessibility and personalization.",
+    
+        "fiat-tag": "UX/UI Design",
+        "fiat-type": "2022 - academic project",
+        "fiat-description1": "The project involved creating an <strong>interactive mobile digital prototype</strong> for use in the retro exhibition on the Fiat 125 car and other popular vehicles in Uruguay from the 60s to the 90s.",
+        "fiat-description2": "The prototype highlights the three most iconic models of the brand, providing details about their technical specifications and history.",
+        "fiat-description3": "Additionally, it presents an interactive timeline showcasing the evolution of Fiat car models over the years. Each point on the timeline represents a specific year, accompanied by a description of the corresponding model, giving visitors a comprehensive view of Fiat's progress over time.",
+    
+        "pala-tag": "UX/UI Design",
+        "pala-type": "2023 - freelance project",
+        "pala-description1": "The project aimed to establish an online presence for graphic designer and illustrator <strong>Juan Palarino</strong>, showcasing his <strong>professional portfolio</strong>.",
+        "pala-description2": "My approach to designing the website with a minimalist style allows the brand and artistic vision to shine through in digital channels.",
+        "pala-description3": "This design enhances the <strong>visibility of his work</strong>, expanding his reach and attracting new audiences to his portfolio.",
+        "pala-button": "View project<i class='bi bi-arrow-up-right ms-4'></i>",
+        
+        "title2": "Other projects"
+    },
+    "footer": {
+        "text1": "Exploring new opportunities",
+        "text2": "Let’s talk!"
+    }
+}
