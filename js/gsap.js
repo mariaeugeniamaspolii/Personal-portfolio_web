@@ -324,7 +324,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             }) :
             gsap.to(".row-quest", {
-                x: -questRow.offsetWidth,
+                x: -questRow.offsetWidth*1.1,
                 ease: "none",
                 scrollTrigger: {
                     trigger: questRow,
@@ -496,7 +496,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const fiatContent = document.querySelector(".project.fiat");
         const fiatImages = document.querySelectorAll(".fiat-images-content");
         gsap.to(".fiat-images-content div", {
-            x: isMobile ? -fiatContent.offsetWidth * 3 : -fiatContent.offsetWidth * 1.8,
+            x: isMobile ? -fiatContent.offsetWidth * 3 : -fiatContent.offsetWidth * 0.7,
             ease: "none",
             scrollTrigger: {
                 trigger: isMobile ? ".fiat-images-content div" : fiatContent,

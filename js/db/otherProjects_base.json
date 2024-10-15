@@ -28,7 +28,6 @@
         "id": "ankar",
         "title": "Ankar",
         "technologies": ["Php", "Html", "Sass", "Bootstrap", "AdobeXd"],
-        "githubLink": "https://github.com/mariaeugeniamaspolii/Ankar-web.git",
         "images": [
             "assets/img/projects/ankar/ankar2.webp",
             "assets/img/projects/ankar/ankar1.webp",

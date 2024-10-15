@@ -1,12 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('languageButton').addEventListener('click', toggleLanguage);
     
-    let currentLanguage = 'es';
-    console.log('inicio:', currentLanguage);
+    let currentLanguage = 'en';
     
     function toggleLanguage() {
-        currentLanguage = currentLanguage === 'es' ? 'en' : 'es';
-        console.log('cambio:', currentLanguage);
+        currentLanguage = currentLanguage === 'en' ? 'es' : 'en';
 
         // Actualiza el botón 
         document.getElementById('languageButton').innerHTML = '<i class="bi bi-globe2"></i> ' + currentLanguage;

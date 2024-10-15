@@ -4,12 +4,12 @@ const projectsFiles = {
     en: 'js/db/otherProjects_en.json'
 };
 
-let currentLanguage = 'es'; // Idioma por defecto
+let currentLanguage = 'en'; // Idioma por defecto
 
 // Función para cambiar el idioma
 function toggleLanguage() {
     console.log('toggleLanguage: ');
-    currentLanguage = currentLanguage === 'es' ? 'en' : 'es';
+    currentLanguage = currentLanguage === 'en' ? 'es' : 'en';
     loadProjects(); // Cargar proyectos en el nuevo idioma
 }
 
