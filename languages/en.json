@@ -6,7 +6,8 @@
     "about": {
         "title": "Designer and Developer",
         "about": "Hello! I’m María Eugenia Máspoli, a digital <span>Frontend</span> designer with knowledge in Backend and React Native. Graduated from ORT University.",
-        "about2": "Committed to delivering quality work and constantly expanding my skills.",
+        "about2": "Committed to delivering quality work, with a strong focus on <span>user experience and intuitive design.</span> I find great motivation in surpassing my own expectations and <span> constantly expanding my skills </span>with every project I take on.",
+        "about3": "Looking back on my career journey has been immensely fulfilling, inspiring me to set <span>higher goals and embrace new challenges.</span>",
         "download": "<i class='bi bi-download me-4'></i>Download my CV"
     },
     "stack": {
