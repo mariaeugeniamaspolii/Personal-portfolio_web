@@ -5,34 +5,13 @@ document.addEventListener("DOMContentLoaded", function () {
     let mm = gsap.matchMedia();
 
     mm.add({
-        isMobile: "(max-width: 991px",
-        isDesktop: "(min-width: 992px",
+        isMobile: "(max-width: 991px)",
+        isDesktop: "(min-width: 992px)",
     }, (context) => {
         let {
             isMobile,
             isDesktop
         } = context.conditions;
-
-        // Only desktop
-        mm.add("(min-width: 769px", () => {
-
-        // Scroll indicator
-        gsap.fromTo( ".scroll-indicator", {
-            y: 0,
-            opacity: 1,
-        },{
-            y: 50,
-            opacity: 0,
-            ease: "none",
-            scrollTrigger: {
-                trigger: ".scroll-indicator",
-                start: "center center",
-                scrub: 1,
-                end: "center center",
-                // // markers: true
-            }
-        })
-        })
 
         //All project rows
         setTimeout(function () {
