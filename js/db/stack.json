@@ -43,6 +43,11 @@
         "style": "white-space: nowrap;"
     },
     {
+        "title": "Axios",
+        "image": "assets/img/logos/axios.webp",
+        "alt": "Axios"
+    },
+    {
         "title": "Ionic",
         "image": "assets/img/logos/ionic.webp",
         "alt": "Ionic"
