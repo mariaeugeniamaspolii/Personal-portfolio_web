@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const containerWidth = scroller.offsetWidth;
 
             gsap.to(stackArticles, {
-                x: isMobile ? -containerWidth * 4.4 : -containerWidth,
+                x: isMobile ? -containerWidth * 4.4 : -containerWidth *1.6,
                 ease: "none",
                 scrollTrigger: {
                     trigger: scroller,
