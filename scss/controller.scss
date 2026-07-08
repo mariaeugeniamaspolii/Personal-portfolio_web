@@ -1,0 +1,15 @@
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1200px,
+    xxl: 1320px
+);
+
+@import "../scss/variables.scss";
+@import "../scss/swiper.scss";
+@import "../scss/main.scss";
+@import "../scss/resets.scss";
+@import "../scss/base.scss";
+
+@import "../node_modules/bootstrap/scss/bootstrap";

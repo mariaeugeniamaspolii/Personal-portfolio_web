@@ -39,7 +39,7 @@
     {
         "id": "nova",
         "title": "Nova Tech App",
-        "technologies": ["Html", "Sass", "Bootstrap", "Javascript", "AdobeXd"],
+        "technologies": ["Ionic", "Sass", "Bootstrap", "Javascript", "AdobeXd"],
         "githubLink": "https://github.com/mariaeugeniamaspolii/Nova-tech_app.git",
         "images": [
             "assets/img/projects/nova/nova1.webp",

@@ -1,4 +1,19 @@
 function startLoader() {
+
+    console.log(
+        '%c👋 ¡Hola! Un gusto verte por acá, contactame por cualquiera de mis redes!',
+        'font-size: 18px; color: #cfcfcf;'
+    );
+    console.log(
+        '%c🔗 LinkedIn: https://www.linkedin.com/in/maria-eugenia-maspoli/',
+        'font-size: 13px; color: #0a66c2; font-weight: bold;'
+    );
+    console.log(
+        '%c📩 Mail: maria.maspoli@outlook.es',
+        'font-size: 13px; color: #0a66c2; font-weight: bold;'
+    );
+
+
     let counterElement = document.querySelector(".counter");
 
     let currentValue = 0;
@@ -8,15 +23,15 @@ function startLoader() {
             return
         }
 
-        currentValue += Math.floor(Math.random()*10)+1;
+        currentValue += Math.floor(Math.random() * 10) + 1;
 
-        if(currentValue>100) {
+        if (currentValue > 100) {
             currentValue = 100;
         }
 
         counterElement.textContent = currentValue;
 
-        let delay = Math.floor(Math.random() *200)+10;
+        let delay = Math.floor(Math.random() * 200) + 10;
         setTimeout(updateCounter, delay);
     }
 
@@ -26,7 +41,7 @@ function startLoader() {
         delay: 3.5,
         opacity: 0,
         display: "none",
-        onComplete: function() {
+        onComplete: function () {
             // Apply CSS animation after GSAP animation finishes
             let element1 = document.querySelector(".first-name");
             let element2 = document.querySelector(".second-name");
@@ -39,7 +54,7 @@ function startLoader() {
     })
 
     gsap.to(".overlay", 1.5, {
-        delay:3.5,
+        delay: 3.5,
         opacity: 0,
         display: "none",
     })

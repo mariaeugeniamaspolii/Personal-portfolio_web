@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+button{
+    border: none;
+    background: none;
+    font-family: var(--font-lexend);
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.row{
+    @extend .me-0;
+    @extend .ms-0;
+}
+
+.btn{
+    --bs-btn-font-size: initial !important;
+}
+
+.bi::before.bi-arrow-up-right::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+    font-weight: bolder !important;
+}

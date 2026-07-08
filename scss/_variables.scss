@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+    /*fonts*/
+    --font-space-grotesk: 'Space Grotesk', sans-serif;
+
+}
+
+//Colors
+$primary: #0B23A2;
+$secondary: #1b36d2;
+$tertiary: #E0E8F6;
+$fourth: #4b4b4b;
+
+//BACKGROUNDS
+$bg-shio: #1f65dc;
+$bg-taurus: #2a2936;
+$bg-pala: #8260A6;
+$bg-quest: #1541b3;
+$bg-eventy: #e53a5a;
+$bg-fiat: #8D0505;
+$bg-fiat2: #EF9B08;
+$bg-fiat3: #1D5E94;
+$bg-rockwell: #13693a;
+$bg-cuarq: #2e3135;
+$bg-nova: #c36c1a;
+$bg-animalitos: #5941ac;
+$bg-ankar: #474C3F;
+$bg-cacho: #572781;
+$bg-recipes: #b87a1e;
+
+
+
+$background: #E0E8F6;
+
+$light-gray: #e7e7e7;
+$gray: #959595;
+$dark-gray: #e75c00;
+
+
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "tertiary": $tertiary,
+    "background": $background,
+    "light-gray": $light-gray,
+    "gray": $gray,
+    "dark-gray": $dark-gray,
+
+
+    "bg-shio": $bg-shio,
+    "bg-taurus": $bg-taurus,
+    "bg-pala": $bg-pala,
+    "bg-quest": $bg-quest,
+    "bg-eventy": $bg-eventy,
+    "bg-fiat": $bg-fiat,
+    "bg-fiat2": $bg-fiat2,
+    "bg-fiat3": $bg-fiat3,
+    "bg-rockwell": $bg-rockwell,
+    "bg-cuarq": $bg-cuarq,
+    "bg-nova": $bg-nova,
+    "bg-animalitos": $bg-animalitos,
+    "bg-ankar": $bg-ankar,
+    "bg-cacho": $bg-cacho,
+    "bg-recipes": $bg-recipes,
+    ) !default;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "tertiary": $tertiary,
+    "background": $background,
+    "light-gray": $light-gray,
+
+
+    "bg-shio": $bg-shio,
+    "bg-taurus": $bg-taurus,
+    "bg-pala": $bg-pala,
+    "bg-quest": $bg-quest,
+    "bg-eventy": $bg-eventy,
+    "bg-fiat": $bg-fiat,
+    "bg-fiat2": $bg-fiat2,
+    "bg-fiat3": $bg-fiat3,
+    "bg-rockwell": $bg-rockwell,
+    "bg-cuarq": $bg-cuarq,
+    "bg-nova": $bg-nova,
+    "bg-animalitos": $bg-animalitos,
+    "bg-ankar": $bg-ankar,
+    "bg-cacho": $bg-cacho,
+    "bg-recipes": $bg-recipes,
+    ) !default;
+
+
+$spacer: 1rem /4;
+$spacers: (
+    0: 0,
+    1: $spacer,
+    //4
+    2: $spacer * 2,
+    //8
+    3: $spacer * 3,
+    //12
+    4: $spacer * 4,
+    //16
+    5: $spacer * 6,
+    //24
+    6: $spacer * 8,
+    //32
+    7: $spacer * 10,
+    //40
+    8: $spacer * 12,
+    //48
+    9: $spacer * 16,
+    //64
+    10: $spacer * 22,
+    //80
+    11: $spacer * 26,
+    //120
+    12: $spacer * 30,
+    //120
+    13: $spacer * 60,
+    //240
+);

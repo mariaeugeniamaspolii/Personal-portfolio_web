@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const texts = await req.json();
         
         for (const textToChange of textsToChange) {
-            console.log('textToChange: ', textToChange);
+            // console.log('textToChange: ', textToChange);
 
             const section = textToChange.dataset.section;
             const value = textToChange.dataset.value;

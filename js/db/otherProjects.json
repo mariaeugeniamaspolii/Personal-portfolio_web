@@ -66,7 +66,7 @@
             "La misma debía ser un ecommerce de productos a elección, para la <strong>obtención de datos, filtrado y búsqueda</strong> se pedía utilizar la API de Mercado Libre y sus distintos endpoints para lograr las funcionalidades deseadas.",
             "A su vez también utilizaba una API dada para el <strong>registro y autentificación de usuarios</strong> para el ingreso y almacenamiento de datos personales del usuario, y del <strong>carrito de compras editable y productos favoritos</strong>."
         ],
-        "technologies": ["Html", "Sass", "Bootstrap", "Javascript", "AdobeXd"],
+        "technologies": ["Ionic", "Sass", "Bootstrap", "Javascript", "AdobeXd"],
         "images": [
             "assets/img/projects/nova/nova1.webp",
             "assets/img/projects/nova/nova2.webp",
